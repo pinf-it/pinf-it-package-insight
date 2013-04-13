@@ -1,0 +1,124 @@
+{
+    "raw": {
+        "name": "autocomplete",
+        "repo": "matthewmueller/autocomplete",
+        "author": "Matt Mueller <mattmuelle@gmail.com>",
+        "twitter": "@mattmueller",
+        "description": "Autocomplete component",
+        "version": "0.0.2",
+        "keywords": [
+            "autocomplete",
+            "component",
+            "ui"
+        ],
+        "dependencies": {
+            "matthewmueller/throttle": "*",
+            "component/event": "*",
+            "component/emitter": "*",
+            "visionmedia/superagent": "*",
+            "matthewmueller/menu": "*",
+            "component/map": "*",
+            "component/to-function": "*",
+            "component/classes": "*"
+        },
+        "development": {},
+        "license": "MIT",
+        "scripts": [
+            "index.js"
+        ]
+    },
+    "normalized": {
+        "name": "autocomplete",
+        "description": "Autocomplete component",
+        "version": "0.0.2",
+        "social": {
+            "bugs": {
+                "twitter": "mattmueller"
+            }
+        },
+        "repositories": [
+            {
+                "type": "git",
+                "url": "http://github.com/matthewmueller/autocomplete.git"
+            }
+        ],
+        "dependencies": {
+            "required": {
+                "matthewmueller-throttle": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/matthewmueller/throttle.git"
+                    },
+                    "selector": "*"
+                },
+                "component-event": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/component/event.git"
+                    },
+                    "selector": "*"
+                },
+                "component-emitter": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/component/emitter.git"
+                    },
+                    "selector": "*"
+                },
+                "visionmedia-superagent": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/visionmedia/superagent.git"
+                    },
+                    "selector": "*"
+                },
+                "matthewmueller-menu": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/matthewmueller/menu.git"
+                    },
+                    "selector": "*"
+                },
+                "component-map": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/component/map.git"
+                    },
+                    "selector": "*"
+                },
+                "component-to-function": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/component/to-function.git"
+                    },
+                    "selector": "*"
+                },
+                "component-classes": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/component/classes.git"
+                    },
+                    "selector": "*"
+                }
+            }
+        },
+        "licenses": [
+            "MIT"
+        ],
+        "exports": {
+            "scripts": {
+                "index.js": "./index.js"
+            }
+        },
+        "keywords": [
+            "autocomplete",
+            "component",
+            "ui"
+        ],
+        "contributors": [
+            "Matt Mueller <mattmuelle@gmail.com>"
+        ]
+    },
+    "warnings": [],
+    "errors": []
+}

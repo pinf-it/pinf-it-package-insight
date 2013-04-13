@@ -56,7 +56,6 @@
             "engines": {
                 "node": ">= 0.4.11"
             },
-            "main": "./lib/amd-loader",
             "scripts": {
                 "test": "node test/test.js"
             }
@@ -67,8 +66,11 @@
                 "url": "http://github.com/ajaxorg/node-amd-loader/raw/master/LICENSE"
             }
         ],
+        "exports": {
+            "main": "./lib/amd-loader"
+        },
         "files": {
-            "readme": "README.md"
+            "readme": "./README.md"
         },
         "contributors": [
             {

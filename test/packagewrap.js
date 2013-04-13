@@ -51,7 +51,11 @@ describe('packagewrap', function() {
 				var waitfor = WAITFOR.serial(done);
 				files.forEach(function(file) {
 					waitfor(function(done) {
-						return PACKAGEWRAP.parseDescriptor(PATH.join(__dirname, "assets", file), {}, function(err, descriptor) {
+						var options = {};
+						if (/\.component\.json$/.test(file)) {
+							options.type = "component";
+						}
+						return PACKAGEWRAP.parseDescriptor(PATH.join(__dirname, "assets", file), options, function(err, descriptor) {
 							if (err) return done(err);
 
 							try {

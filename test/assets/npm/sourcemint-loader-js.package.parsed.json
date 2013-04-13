@@ -41,7 +41,6 @@
         },
         "config": {
             "shrinkwrap": true,
-            "main": "loader.js",
             "scripts": {
                 "test": "node tests/examples"
             },
@@ -49,8 +48,11 @@
                 "lib": "."
             }
         },
+        "exports": {
+            "main": "./loader.js"
+        },
         "files": {
-            "readme": "README.md"
+            "readme": "./README.md"
         }
     },
     "warnings": [],

@@ -111,6 +111,9 @@
                 "url": "http://opensource.org/licenses/BSD-3-Clause"
             }
         ],
+        "exports": {
+            "main": "./lib/ace"
+        },
         "contributors": [
             "Fabian Jakobs <fabian@ajax.org>"
         ]

@@ -34,13 +34,15 @@
             }
         ],
         "config": {
-            "main": "./lib/abbrev.js",
             "scripts": {
                 "test": "node lib/abbrev.js"
             }
         },
+        "exports": {
+            "main": "./lib/abbrev.js"
+        },
         "files": {
-            "readme": "README.md"
+            "readme": "./README.md"
         },
         "contributors": [
             {

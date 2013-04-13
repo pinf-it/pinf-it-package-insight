@@ -1,0 +1,121 @@
+{
+    "raw": {
+        "name": "dial",
+        "author": "Jordan Santell",
+        "description": "A UI dial component",
+        "version": "0.0.3",
+        "keywords": [
+            "dial",
+            "knob",
+            "rotate",
+            "ui"
+        ],
+        "dependencies": {
+            "component/domify": "*",
+            "component/event": "*",
+            "component/emitter": "*",
+            "gorillatron/extend": "*",
+            "jsantell/rotate": "*"
+        },
+        "development": {
+            "manuelstofer/each": "*"
+        },
+        "scripts": [
+            "index.js",
+            "template.js"
+        ],
+        "styles": [
+            "dial.css"
+        ],
+        "license": "MIT",
+        "repo": "jsantell/dial",
+        "twitter": "@jsantell"
+    },
+    "normalized": {
+        "name": "dial",
+        "description": "A UI dial component",
+        "version": "0.0.3",
+        "social": {
+            "bugs": {
+                "twitter": "jsantell"
+            }
+        },
+        "repositories": [
+            {
+                "type": "git",
+                "url": "http://github.com/jsantell/dial.git"
+            }
+        ],
+        "dependencies": {
+            "required": {
+                "component-domify": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/component/domify.git"
+                    },
+                    "selector": "*"
+                },
+                "component-event": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/component/event.git"
+                    },
+                    "selector": "*"
+                },
+                "component-emitter": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/component/emitter.git"
+                    },
+                    "selector": "*"
+                },
+                "gorillatron-extend": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/gorillatron/extend.git"
+                    },
+                    "selector": "*"
+                },
+                "jsantell-rotate": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/jsantell/rotate.git"
+                    },
+                    "selector": "*"
+                }
+            },
+            "development": {
+                "manuelstofer-each": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/manuelstofer/each.git"
+                    },
+                    "selector": "*"
+                }
+            }
+        },
+        "licenses": [
+            "MIT"
+        ],
+        "exports": {
+            "scripts": {
+                "index.js": "./index.js",
+                "template.js": "./template.js"
+            },
+            "styles": {
+                "dial.css": "./dial.css"
+            }
+        },
+        "keywords": [
+            "dial",
+            "knob",
+            "rotate",
+            "ui"
+        ],
+        "contributors": [
+            "Jordan Santell"
+        ]
+    },
+    "warnings": [],
+    "errors": []
+}

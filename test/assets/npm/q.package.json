@@ -20,10 +20,7 @@
             "url": "http://jeditoolkit.com"
         }
     ],
-    "bugs": {
-        "mail": "kris@cixar.com",
-        "url": "http://github.com/kriskowal/q/issues"
-    },
+    "bugs": "http://github.com/kriskowal/q/issues",
     "licenses": [
         {
             "type": "MIT",

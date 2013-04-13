@@ -1,0 +1,107 @@
+{
+    "raw": {
+        "name": "calendar",
+        "repo": "component/calendar",
+        "description": "Calendar component",
+        "version": "0.0.3",
+        "keywords": [
+            "calendar",
+            "date",
+            "ui"
+        ],
+        "dependencies": {
+            "component/range": "*",
+            "component/jquery": "*",
+            "component/emitter": "*",
+            "component/in-groups-of": "*"
+        },
+        "development": {
+            "component/aurora-calendar": "*"
+        },
+        "styles": [
+            "lib/calendar.css"
+        ],
+        "scripts": [
+            "index.js",
+            "lib/utils.js",
+            "lib/template.js",
+            "lib/calendar.js",
+            "lib/days.js"
+        ],
+        "license": "MIT"
+    },
+    "normalized": {
+        "name": "calendar",
+        "description": "Calendar component",
+        "version": "0.0.3",
+        "repositories": [
+            {
+                "type": "git",
+                "url": "http://github.com/component/calendar.git"
+            }
+        ],
+        "dependencies": {
+            "required": {
+                "component-range": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/component/range.git"
+                    },
+                    "selector": "*"
+                },
+                "component-jquery": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/component/jquery.git"
+                    },
+                    "selector": "*"
+                },
+                "component-emitter": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/component/emitter.git"
+                    },
+                    "selector": "*"
+                },
+                "component-in-groups-of": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/component/in-groups-of.git"
+                    },
+                    "selector": "*"
+                }
+            },
+            "development": {
+                "component-aurora-calendar": {
+                    "repository": {
+                        "type": "git",
+                        "url": "http://github.com/component/aurora-calendar.git"
+                    },
+                    "selector": "*"
+                }
+            }
+        },
+        "licenses": [
+            "MIT"
+        ],
+        "exports": {
+            "scripts": {
+                "index.js": "./index.js",
+                "lib/utils.js": "./lib/utils.js",
+                "lib/template.js": "./lib/template.js",
+                "lib/calendar.js": "./lib/calendar.js",
+                "lib/days.js": "./lib/days.js"
+            },
+            "styles": {
+                "lib/calendar.css": "./lib/calendar.css"
+            }
+        },
+        "keywords": [
+            "calendar",
+            "date",
+            "ui"
+        ]
+    },
+    "warnings": [],
+    "errors": []
+}

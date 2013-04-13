@@ -23,7 +23,16 @@ Install
 Usage
 -----
 
-*TODO*
+	const PACKAGEWRAP = require("packagewrap");
+
+	PACKAGEWRAP.parseDescriptor("<path>" || <object>, {
+		type: "<type>" || null
+	}, function(err, descriptor) {
+		// `descriptor.raw`
+		// `descriptor.notmalized`
+		// `descriptor.warnings`
+		// `descriptor.errors`
+	});
 
 
 Development

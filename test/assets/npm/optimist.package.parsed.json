@@ -72,7 +72,6 @@
             "engines": {
                 "node": ">=0.4"
             },
-            "main": "./index.js",
             "scripts": {
                 "test": "tap ./test/*.js"
             },
@@ -85,8 +84,11 @@
         "licenses": [
             "MIT/X11"
         ],
+        "exports": {
+            "main": "./index.js"
+        },
         "files": {
-            "readme": "README.markdown"
+            "readme": "./README.markdown"
         },
         "keywords": [
             "argument",

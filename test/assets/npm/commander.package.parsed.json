@@ -56,13 +56,15 @@
             "engines": {
                 "node": ">= 0.4.x"
             },
-            "main": "index",
             "scripts": {
                 "test": "make test"
             }
         },
+        "exports": {
+            "main": "./index"
+        },
         "files": {
-            "readme": "Readme.md"
+            "readme": "./Readme.md"
         },
         "keywords": [
             "command",

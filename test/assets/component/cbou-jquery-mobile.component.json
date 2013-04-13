@@ -1,0 +1,28 @@
+{
+    "name": "jquery-mobile",
+    "repo": "cbou/jquery-mobile",
+    "description": "jQuery Mobile Framework",
+    "version": "0.0.1",
+    "keywords": [
+        "ui",
+        "jquery",
+        "mobile"
+    ],
+    "dependencies": {
+        "component/jquery": "*"
+    },
+    "development": {},
+    "scripts": {
+        "compiled/jquery.mobile.js": "jquery.mobile.js"
+    },
+    "styles": {
+        "compiled/jquery.mobile.css": "jquery.mobile.css"
+    },
+    "files": {
+        "compiled/images/ajax-loader.gif": "images/ajax-loader.gif",
+        "compiled/images/icons-18-black.png": "images/icons-18-black.png",
+        "compiled/images/icons-18-white.png": "images/icons-18-white.png",
+        "compiled/images/icons-36-black.png": "images/icons-36-black.png",
+        "compiled/images/icons-36-white.png": "images/icons-36-white.png"
+    }
+}

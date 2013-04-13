@@ -178,9 +178,11 @@
         "locator": {
             "pointer": "0.2.10"
         },
-        "bugs": {
-            "email": "tmpvar@gmail.com",
-            "url": "http://github.com/tmpvar/jsdom/issues"
+        "social": {
+            "bugs": {
+                "email": "tmpvar@gmail.com",
+                "url": "http://github.com/tmpvar/jsdom/issues"
+            }
         },
         "repositories": [
             {
@@ -205,7 +207,6 @@
             "engines": {
                 "node": ">=0.1.9"
             },
-            "main": "./lib/jsdom",
             "directories": {
                 "lib": "./lib/jsdom"
             },
@@ -219,8 +220,11 @@
                 "url": "http://github.com/tmpvar/jsdom/blob/master/LICENSE.txt"
             }
         ],
+        "exports": {
+            "main": "./lib/jsdom"
+        },
         "files": {
-            "readme": "README.md"
+            "readme": "./README.md"
         },
         "keywords": [
             "dom",

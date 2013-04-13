@@ -26,10 +26,7 @@
                 "url": "http://jeditoolkit.com"
             }
         ],
-        "bugs": {
-            "mail": "kris@cixar.com",
-            "url": "http://github.com/kriskowal/q/issues"
-        },
+        "bugs": "http://github.com/kriskowal/q/issues",
         "licenses": [
             {
                 "type": "MIT",
@@ -78,9 +75,10 @@
             "pointer": "0.8.2"
         },
         "homepage": "http://github.com/kriskowal/q/",
-        "bugs": {
-            "mail": "kris@cixar.com",
-            "url": "http://github.com/kriskowal/q/issues"
+        "social": {
+            "bugs": {
+                "url": "http://github.com/kriskowal/q/issues"
+            }
         },
         "repositories": [
             {
@@ -101,7 +99,6 @@
                 "node": ">=0.2.0",
                 "teleport": ">=0.2.0"
             },
-            "main": "q.js",
             "scripts": {
                 "test": "node test/all.js"
             },
@@ -125,8 +122,11 @@
                 "url": "http://github.com/kriskowal/q/raw/master/LICENSE"
             }
         ],
+        "exports": {
+            "main": "./q.js"
+        },
         "files": {
-            "readme": "README.md"
+            "readme": "./README.md"
         },
         "contributors": [
             {

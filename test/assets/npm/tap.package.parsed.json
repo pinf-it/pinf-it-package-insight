@@ -100,7 +100,6 @@
             "bin": {
                 "tap": "bin/tap.js"
             },
-            "main": "lib/main.js",
             "scripts": {
                 "test": "bin/tap.js test/*.js"
             }
@@ -111,8 +110,11 @@
                 "url": "https://github.com/isaacs/node-tap/raw/master/LICENSE"
             }
         ],
+        "exports": {
+            "main": "./lib/main.js"
+        },
         "files": {
-            "readme": "README.md"
+            "readme": "./README.md"
         },
         "keywords": [
             "assert",

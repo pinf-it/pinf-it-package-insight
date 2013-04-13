@@ -57,17 +57,17 @@
                 "url": "http://github.com/c9/architect.git"
             }
         ],
-        "config": {
-            "main": "architect.js"
-        },
         "licenses": [
             {
                 "type": "MIT",
                 "url": "http://github.com/c9/architect/raw/master/LICENSE"
             }
         ],
+        "exports": {
+            "main": "./architect.js"
+        },
         "files": {
-            "readme": "README.markdown"
+            "readme": "./README.markdown"
         },
         "contributors": [
             {

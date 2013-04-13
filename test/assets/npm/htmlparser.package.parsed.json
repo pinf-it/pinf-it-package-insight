@@ -56,9 +56,11 @@
             "pointer": "1.7.5"
         },
         "homepage": "http://github.com/tautologistics/node-htmlparser",
-        "bugs": {
-            "mail": "chris@winberry.net",
-            "url": "http://github.com/tautologistics/node-htmlparser/issues"
+        "social": {
+            "bugs": {
+                "mail": "chris@winberry.net",
+                "url": "http://github.com/tautologistics/node-htmlparser/issues"
+            }
         },
         "repositories": [
             {
@@ -77,7 +79,6 @@
                 "win32",
                 "openbsd"
             ],
-            "main": "./lib/htmlparser",
             "directories": {
                 "lib": "./lib/"
             }
@@ -88,8 +89,11 @@
                 "url": "http://github.com/tautologistics/node-htmlparser/raw/master/LICENSE"
             }
         ],
+        "exports": {
+            "main": "./lib/htmlparser"
+        },
         "files": {
-            "readme": "README.md"
+            "readme": "./README.md"
         },
         "keywords": [
             "html",

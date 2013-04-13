@@ -1,0 +1,32 @@
+{
+    "name": "dial",
+    "author": "Jordan Santell",
+    "description": "A UI dial component",
+    "version": "0.0.3",
+    "keywords": [
+        "dial",
+        "knob",
+        "rotate",
+        "ui"
+    ],
+    "dependencies": {
+        "component/domify": "*",
+        "component/event": "*",
+        "component/emitter": "*",
+        "gorillatron/extend": "*",
+        "jsantell/rotate": "*"
+    },
+    "development": {
+        "manuelstofer/each": "*"
+    },
+    "scripts": [
+        "index.js",
+        "template.js"
+    ],
+    "styles": [
+        "dial.css"
+    ],
+    "license": "MIT",
+    "repo": "jsantell/dial",
+    "twitter": "@jsantell"
+}

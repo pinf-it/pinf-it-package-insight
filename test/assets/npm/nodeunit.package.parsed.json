@@ -103,8 +103,10 @@
         "locator": {
             "pointer": "0.7.4"
         },
-        "bugs": {
-            "url": "http://github.com/caolan/nodeunit/issues"
+        "social": {
+            "bugs": {
+                "url": "http://github.com/caolan/nodeunit/issues"
+            }
         },
         "repositories": [
             {
@@ -138,7 +140,7 @@
             }
         ],
         "files": {
-            "readme": "README.md",
+            "readme": "./README.md",
             "man": [
                 "./man1/nodeunit.1"
             ]
