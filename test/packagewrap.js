@@ -7,6 +7,10 @@ const FS = require("fs-extra");
 const PACKAGEWRAP = require("../lib/packagewrap");
 
 
+const MODE = "test";
+//const MODE = "write";
+
+
 describe('packagewrap', function() {
 
 	it('should export `parse()`', function() {
@@ -70,8 +74,17 @@ describe('packagewrap', function() {
 									});
 								}
 
-								// TODO: Rather than writing file, ensure file is the same as `descriptor`.
-								FS.writeFileSync(PATH.join(__dirname, "assets", file.replace(/(\.json)$/, ".parsed$1")), JSON.stringify(descriptor, null, 4));
+								if (MODE === "test") {
+									ASSERT.deepEqual(
+										descriptor,
+										JSON.parse(FS.readFileSync(PATH.join(__dirname, "assets", file.replace(/(\.json)$/, ".parsed$1"))))
+									);
+								} else
+								if (MODE === "write") {
+									FS.writeFileSync(PATH.join(__dirname, "assets", file.replace(/(\.json)$/, ".parsed$1")), JSON.stringify(descriptor, null, 4));
+								} else {
+									throw new Error("Unknown `MODE`");
+								}
 
 								return done(null);
 							} catch(err) {
