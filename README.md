@@ -6,7 +6,7 @@ Package MetaData Wrapper
 Package metadata standards are evolving but there are various differences across communities.
 
 This library attempts to generate a normalized package descriptor and manifest for
-any package that adheres to the following standards:
+any package that adheres to the following conventions:
 
   * [npm](https://npmjs.org/doc/json.html)
   * [CommonJS](http://wiki.commonjs.org/wiki/Packages/1.1)
@@ -17,7 +17,7 @@ any package that adheres to the following standards:
 Install
 -------
 
-    npm install packagewrap
+    npm install pinf-it-packagewrap
 
 
 Usage
