@@ -23,7 +23,7 @@ Install
 Usage
 -----
 
-	const PACKAGEINSIGHT = require("packageinsight");
+	const PACKAGEINSIGHT = require("pinf-it-packageinsight");
 
 	PACKAGEINSIGHT.parseDescriptor("<path>" || <object>, {
 		type: "<type>" || null
