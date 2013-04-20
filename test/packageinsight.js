@@ -6,7 +6,6 @@ const GLOB = require("glob");
 const FS = require("fs-extra");
 const PACKAGEINSIGHT = require("../lib/packageinsight");
 
-
 const MODE = "test";
 //const MODE = "write";
 
@@ -77,11 +76,11 @@ describe('packageinsight', function() {
 								if (MODE === "test") {
 									ASSERT.deepEqual(
 										descriptor,
-										JSON.parse(FS.readFileSync(PATH.join(__dirname, "assets", file.replace(/(\.json)$/, ".parsed$1"))))
+										JSON.parse(FS.readFileSync(PATH.join(__dirname, "assets", file.replace(/(\.json)$/, ".insight$1"))))
 									);
 								} else
 								if (MODE === "write") {
-									FS.writeFileSync(PATH.join(__dirname, "assets", file.replace(/(\.json)$/, ".parsed$1")), JSON.stringify(descriptor, null, 4));
+									FS.writeFileSync(PATH.join(__dirname, "assets", file.replace(/(\.json)$/, ".insight$1")), JSON.stringify(descriptor, null, 4));
 								} else {
 									throw new Error("Unknown `MODE`");
 								}

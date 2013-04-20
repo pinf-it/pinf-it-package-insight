@@ -1,7 +1,7 @@
 *STATUS: DEV*
 
-Package MetaData Wrapper
-========================
+Package Insight
+===============
 
 Package metadata standards are evolving but there are various differences across communities.
 
