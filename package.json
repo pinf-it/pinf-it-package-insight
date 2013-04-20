@@ -1,9 +1,9 @@
 {
-    "name": "pinf-it-packagewrap",
+    "name": "pinf-it-packageinsight",
     "version": "0.1.1",
     "pm": "npm",
     "publish": true,
-    "main": "./lib/packagewrap.js",
+    "main": "./lib/packageinsight.js",
     "dependencies": {
         "fs-extra": "~0.6.0",
         "deepcopy": "~0.1.2",

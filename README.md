@@ -17,15 +17,15 @@ any package that adheres to the following conventions:
 Install
 -------
 
-    npm install pinf-it-packagewrap
+    npm install pinf-it-packageinsight
 
 
 Usage
 -----
 
-	const PACKAGEWRAP = require("packagewrap");
+	const PACKAGEINSIGHT = require("packageinsight");
 
-	PACKAGEWRAP.parseDescriptor("<path>" || <object>, {
+	PACKAGEINSIGHT.parseDescriptor("<path>" || <object>, {
 		type: "<type>" || null
 	}, function(err, descriptor) {
 		// `descriptor.raw`

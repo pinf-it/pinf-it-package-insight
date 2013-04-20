@@ -4,21 +4,21 @@ const ASSERT = require("assert");
 const WAITFOR = require("waitfor");
 const GLOB = require("glob");
 const FS = require("fs-extra");
-const PACKAGEWRAP = require("../lib/packagewrap");
+const PACKAGEINSIGHT = require("../lib/packageinsight");
 
 
 const MODE = "test";
 //const MODE = "write";
 
 
-describe('packagewrap', function() {
+describe('packageinsight', function() {
 
 	it('should export `parse()`', function() {
-		ASSERT(typeof PACKAGEWRAP.parse === "function");
+		ASSERT(typeof PACKAGEINSIGHT.parse === "function");
 	});
 
 	it('should export `parseDescriptor()`', function() {
-		ASSERT(typeof PACKAGEWRAP.parseDescriptor === "function");
+		ASSERT(typeof PACKAGEINSIGHT.parseDescriptor === "function");
 	});
 
 	describe('`parseDescriptor()`', function() {
@@ -59,7 +59,7 @@ describe('packagewrap', function() {
 						if (/\.component\.json$/.test(file)) {
 							options.type = "component";
 						}
-						return PACKAGEWRAP.parseDescriptor(PATH.join(__dirname, "assets", file), options, function(err, descriptor) {
+						return PACKAGEINSIGHT.parseDescriptor(PATH.join(__dirname, "assets", file), options, function(err, descriptor) {
 							if (err) return done(err);
 
 							try {
