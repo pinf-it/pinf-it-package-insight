@@ -1,6 +1,6 @@
 {
     "name": "pinf-it-packageinsight",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "pm": "npm",
     "publish": true,
     "main": "./lib/packageinsight.js",
