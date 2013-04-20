@@ -68,7 +68,7 @@ describe('packagewrap', function() {
 
 								if (descriptor.errors.length > 0) {
 									descriptor.errors.forEach(function(error) {
-										var err = new Error("Got '" + error[0] + "' error");
+										var err = new Error("Got '" + error[0] + "' error '" + error[1] + "' for file '" + PATH.join("assets", file) + "'");
 										err.stack = error[2];
 										throw err;
 									});
