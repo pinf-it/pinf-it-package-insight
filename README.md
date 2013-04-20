@@ -3,10 +3,10 @@
 Package Insight
 ===============
 
-Package metadata standards are evolving but there are various differences across communities.
+Package standards are evolving but there are various differences across communities.
 
 This library attempts to generate a normalized package descriptor and manifest for
-any package that adheres to the following conventions:
+any package that adheres to any of the following conventions:
 
   * [npm](https://npmjs.org/doc/json.html)
   * [CommonJS](http://wiki.commonjs.org/wiki/Packages/1.1)
@@ -17,15 +17,15 @@ any package that adheres to the following conventions:
 Install
 -------
 
-    npm install pinf-it-packageinsight
+    npm install pinf-it-package-insight
 
 
 Usage
 -----
 
-	const PACKAGEINSIGHT = require("pinf-it-packageinsight");
+	const PACKAGE_INSIGHT = require("pinf-it-package-insight");
 
-	PACKAGEINSIGHT.parseDescriptor("<path>" || <object>, {
+	PACKAGE_INSIGHT.parseDescriptor("<path>" || <object>, {
 		type: "<type>" || null
 	}, function(err, descriptor) {
 		// `descriptor.raw`

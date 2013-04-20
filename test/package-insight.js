@@ -4,7 +4,7 @@ const ASSERT = require("assert");
 const WAITFOR = require("waitfor");
 const GLOB = require("glob");
 const FS = require("fs-extra");
-const PACKAGEINSIGHT = require("../lib/packageinsight");
+const PACKAGE_INSIGHT = require("../lib/package-insight");
 
 const MODE = "test";
 //const MODE = "write";
@@ -13,11 +13,11 @@ const MODE = "test";
 describe('packageinsight', function() {
 
 	it('should export `parse()`', function() {
-		ASSERT(typeof PACKAGEINSIGHT.parse === "function");
+		ASSERT(typeof PACKAGE_INSIGHT.parse === "function");
 	});
 
 	it('should export `parseDescriptor()`', function() {
-		ASSERT(typeof PACKAGEINSIGHT.parseDescriptor === "function");
+		ASSERT(typeof PACKAGE_INSIGHT.parseDescriptor === "function");
 	});
 
 	describe('`parseDescriptor()`', function() {
@@ -58,7 +58,7 @@ describe('packageinsight', function() {
 						if (/\.component\.json$/.test(file)) {
 							options.type = "component";
 						}
-						return PACKAGEINSIGHT.parseDescriptor(PATH.join(__dirname, "assets", file), options, function(err, descriptor) {
+						return PACKAGE_INSIGHT.parseDescriptor(PATH.join(__dirname, "assets", file), options, function(err, descriptor) {
 							if (err) return done(err);
 
 							try {
