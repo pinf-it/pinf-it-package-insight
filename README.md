@@ -1,4 +1,4 @@
-*STATUS: DEV*
+*Status: DEV*
 
 Package Insight
 ===============
