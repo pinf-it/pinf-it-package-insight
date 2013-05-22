@@ -1,0 +1,21 @@
+{
+    "raw": {
+        "package.json": {
+            "main": "./app.js"
+        }
+    },
+    "normalized": {
+        "package.json": {
+            "exports": {
+                "main": "./app.js"
+            }
+        }
+    },
+    "combined": {
+        "exports": {
+            "main": "./app.js"
+        }
+    },
+    "warnings": [],
+    "errors": []
+}

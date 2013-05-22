@@ -96,4 +96,51 @@ describe('package-insight', function() {
 		});
 	});
 
+	describe('`parse()`', function() {
+
+		it('should parse various', function(done) {
+
+			var waitfor = WAITFOR.serial(done);
+			FS.readdirSync(PATH.join(__dirname, "assets/packages")).forEach(function(filename) {
+				if (/\.insight\.json$/.test(filename)) return;
+
+				waitfor(function(done) {
+					var options = {};
+					return PACKAGE_INSIGHT.parse(PATH.join(__dirname, "assets/packages", filename), options, function(err, descriptor) {
+						if (err) return done(err);
+
+						try {
+
+							ASSERT(typeof descriptor === "object");
+
+							if (descriptor.errors.length > 0) {
+								descriptor.errors.forEach(function(error) {
+									var err = new Error("Got '" + error[0] + "' error '" + error[1] + "' for file '" + PATH.join("assets/packages", filename) + "'");
+									err.stack = error[2];
+									throw err;
+								});
+							}
+
+							if (MODE === "test") {
+								ASSERT.deepEqual(
+									descriptor,
+									JSON.parse(FS.readFileSync(PATH.join(__dirname, "assets/packages", filename + ".insight.json")))
+								);
+							} else
+							if (MODE === "write") {
+								FS.outputFileSync(PATH.join(__dirname, "assets/packages", filename + ".insight.json"), JSON.stringify(descriptor, null, 4));
+							} else {
+								throw new Error("Unknown `MODE`");
+							}
+
+							return done(null);
+						} catch(err) {
+							return done(err);
+						}
+					});
+				});
+			});
+		});
+	});
+
 });
