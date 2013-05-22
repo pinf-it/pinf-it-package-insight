@@ -11,6 +11,11 @@
             },
             "pm": {
                 "install": "npm"
+            },
+            "dependencies": {
+                "bundled": [
+                    "greeting"
+                ]
             }
         }
     },
@@ -20,6 +25,11 @@
         },
         "pm": {
             "install": "npm"
+        },
+        "dependencies": {
+            "bundled": [
+                "greeting"
+            ]
         }
     },
     "warnings": [],
