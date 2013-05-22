@@ -34,6 +34,9 @@
         "name": "calendar",
         "description": "Calendar component",
         "version": "0.0.3",
+        "pm": {
+            "install": "component"
+        },
         "repositories": [
             {
                 "type": "git",

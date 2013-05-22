@@ -31,6 +31,9 @@
         "name": "jquery-mobile",
         "description": "jQuery Mobile Framework",
         "version": "0.0.1",
+        "pm": {
+            "install": "component"
+        },
         "repositories": [
             {
                 "type": "git",

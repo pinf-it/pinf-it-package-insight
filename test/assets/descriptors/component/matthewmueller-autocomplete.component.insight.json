@@ -31,6 +31,9 @@
         "name": "autocomplete",
         "description": "Autocomplete component",
         "version": "0.0.2",
+        "pm": {
+            "install": "component"
+        },
         "social": {
             "bugs": {
                 "twitter": "mattmueller"

@@ -35,6 +35,9 @@
         "name": "dial",
         "description": "A UI dial component",
         "version": "0.0.3",
+        "pm": {
+            "install": "component"
+        },
         "social": {
             "bugs": {
                 "twitter": "jsantell"
