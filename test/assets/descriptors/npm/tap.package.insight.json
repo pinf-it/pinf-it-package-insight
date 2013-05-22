@@ -90,11 +90,11 @@
                 "deep-equal": "~0.0.0",
                 "buffer-equal": "~0.0.0"
             },
-            "bundled": [
-                "inherits",
-                "tap-consumer",
-                "yamlish"
-            ]
+            "bundled": {
+                "inherits": false,
+                "tap-consumer": false,
+                "yamlish": false
+            }
         },
         "config": {
             "bin": {

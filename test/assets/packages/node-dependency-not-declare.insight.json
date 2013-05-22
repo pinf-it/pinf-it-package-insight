@@ -13,9 +13,9 @@
                 "install": "npm"
             },
             "dependencies": {
-                "bundled": [
-                    "greeting"
-                ]
+                "bundled": {
+                    "greeting": "./node_modules/greeting"
+                }
             }
         }
     },
@@ -27,9 +27,9 @@
             "install": "npm"
         },
         "dependencies": {
-            "bundled": [
-                "greeting"
-            ]
+            "bundled": {
+                "greeting": "./node_modules/greeting"
+            }
         }
     },
     "warnings": [],
