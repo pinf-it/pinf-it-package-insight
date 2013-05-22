@@ -38,7 +38,7 @@ describe('package-insight', function() {
 				rules.forEach(function(rule) {
 					waitfor(function(done) {
 						return GLOB(rule, {
-					        cwd: PATH.join(__dirname, "assets")
+					        cwd: PATH.join(__dirname, "assets/descriptors")
 					    }, function (err, paths) {
 					        if (err) return done(err);
 					        files = files.concat(paths);
@@ -58,7 +58,7 @@ describe('package-insight', function() {
 						if (/\.component\.json$/.test(file)) {
 							options.type = "component";
 						}
-						return PACKAGE_INSIGHT.parseDescriptor(PATH.join(__dirname, "assets", file), options, function(err, descriptor) {
+						return PACKAGE_INSIGHT.parseDescriptor(PATH.join(__dirname, "assets/descriptors", file), options, function(err, descriptor) {
 							if (err) return done(err);
 
 							try {
@@ -67,7 +67,7 @@ describe('package-insight', function() {
 
 								if (descriptor.errors.length > 0) {
 									descriptor.errors.forEach(function(error) {
-										var err = new Error("Got '" + error[0] + "' error '" + error[1] + "' for file '" + PATH.join("assets", file) + "'");
+										var err = new Error("Got '" + error[0] + "' error '" + error[1] + "' for file '" + PATH.join("assets/descriptors", file) + "'");
 										err.stack = error[2];
 										throw err;
 									});
@@ -76,11 +76,11 @@ describe('package-insight', function() {
 								if (MODE === "test") {
 									ASSERT.deepEqual(
 										descriptor,
-										JSON.parse(FS.readFileSync(PATH.join(__dirname, "assets", file.replace(/(\.json)$/, ".insight$1"))))
+										JSON.parse(FS.readFileSync(PATH.join(__dirname, "assets/descriptors", file.replace(/(\.json)$/, ".insight$1"))))
 									);
 								} else
 								if (MODE === "write") {
-									FS.writeFileSync(PATH.join(__dirname, "assets", file.replace(/(\.json)$/, ".insight$1")), JSON.stringify(descriptor, null, 4));
+									FS.writeFileSync(PATH.join(__dirname, "assets/descriptors", file.replace(/(\.json)$/, ".insight$1")), JSON.stringify(descriptor, null, 4));
 								} else {
 									throw new Error("Unknown `MODE`");
 								}
