@@ -12,6 +12,11 @@
             "pm": {
                 "install": "npm"
             },
+            "config": {
+                "directories": {
+                    "dependency": "./node_modules"
+                }
+            },
             "dependencies": {
                 "bundled": {
                     "greeting": "./node_modules/greeting"
@@ -25,6 +30,11 @@
         },
         "pm": {
             "install": "npm"
+        },
+        "config": {
+            "directories": {
+                "dependency": "./node_modules"
+            }
         },
         "dependencies": {
             "bundled": {

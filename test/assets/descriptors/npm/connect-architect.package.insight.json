@@ -79,6 +79,9 @@
         "config": {
             "scripts": {
                 "test": "node test/all.js"
+            },
+            "directories": {
+                "dependency": "./node_modules"
             }
         },
         "licenses": [

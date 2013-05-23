@@ -6,8 +6,8 @@
         "main": "./index.js",
         "directories": {
             "lib": ".",
-            "test": "test",
-            "example": "example"
+            "test": "./test",
+            "example": "./example"
         },
         "dependencies": {
             "wordwrap": "~0.0.2"
@@ -77,8 +77,8 @@
             },
             "directories": {
                 "lib": ".",
-                "test": "test",
-                "example": "example"
+                "test": "./test",
+                "example": "./example"
             }
         },
         "licenses": [

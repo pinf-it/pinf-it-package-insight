@@ -7,7 +7,8 @@
         "shrinkwrap": true,
         "main": "loader.js",
         "directories": {
-            "lib": "."
+            "lib": ".",
+            "dependency": "./node_modules"
         },
         "devDependencies": {
             "q": "0.x",
@@ -45,7 +46,8 @@
                 "test": "node tests/examples"
             },
             "directories": {
-                "lib": "."
+                "lib": ".",
+                "dependency": "./node_modules"
             }
         },
         "exports": {
