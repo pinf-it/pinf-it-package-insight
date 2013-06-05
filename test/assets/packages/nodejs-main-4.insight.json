@@ -14,7 +14,9 @@
     "combined": {
         "exports": {
             "main": "./app.js"
-        }
+        },
+        "dirpath": "packages/nodejs-main-4",
+        "id": "21defa5bc6e332023affead0ca75739ae72a2ac3-nodejs-main-4"
     },
     "warnings": [],
     "errors": []

@@ -54,11 +54,13 @@ describe('package-insight', function() {
 				var waitfor = WAITFOR.serial(done);
 				files.forEach(function(file) {
 					waitfor(function(done) {
-						var options = {};
+						var options = {
+							rootPath: PATH.join(__dirname, "assets")
+						};
 						if (/\.component\.json$/.test(file)) {
 							options.type = "component";
 						}
-						return PACKAGE_INSIGHT.parseDescriptor(PATH.join(__dirname, "assets/descriptors", file), options, function(err, descriptor) {
+						return PACKAGE_INSIGHT.parseDescriptor(PATH.join("descriptors", file), options, function(err, descriptor) {
 							if (err) return done(err);
 
 							try {
@@ -67,7 +69,7 @@ describe('package-insight', function() {
 
 								if (descriptor.errors.length > 0) {
 									descriptor.errors.forEach(function(error) {
-										var err = new Error("Got '" + error[0] + "' error '" + error[1] + "' for file '" + PATH.join("assets/descriptors", file) + "'");
+										var err = new Error("Got '" + error[0] + "' error '" + error[1] + "' for file '" + PATH.join(options.rootPath, "descriptors", file) + "'");
 										err.stack = error[2];
 										throw err;
 									});
@@ -76,11 +78,11 @@ describe('package-insight', function() {
 								if (MODE === "test") {
 									ASSERT.deepEqual(
 										descriptor,
-										JSON.parse(FS.readFileSync(PATH.join(__dirname, "assets/descriptors", file.replace(/(\.json)$/, ".insight$1"))))
+										JSON.parse(FS.readFileSync(PATH.join(options.rootPath, "descriptors", file.replace(/(\.json)$/, ".insight$1"))))
 									);
 								} else
 								if (MODE === "write") {
-									FS.writeFileSync(PATH.join(__dirname, "assets/descriptors", file.replace(/(\.json)$/, ".insight$1")), JSON.stringify(descriptor, null, 4));
+									FS.writeFileSync(PATH.join(options.rootPath, "descriptors", file.replace(/(\.json)$/, ".insight$1")), JSON.stringify(descriptor, null, 4));
 								} else {
 									throw new Error("Unknown `MODE`");
 								}
@@ -105,8 +107,10 @@ describe('package-insight', function() {
 				if (/\.insight\.json$/.test(filename)) return;
 
 				waitfor(function(done) {
-					var options = {};
-					return PACKAGE_INSIGHT.parse(PATH.join(__dirname, "assets/packages", filename), options, function(err, descriptor) {
+					var options = {
+						rootPath: PATH.join(__dirname, "assets")
+					};
+					return PACKAGE_INSIGHT.parse(PATH.join("packages", filename), options, function(err, descriptor) {
 						if (err) return done(err);
 
 						try {
@@ -115,7 +119,7 @@ describe('package-insight', function() {
 
 							if (descriptor.errors.length > 0) {
 								descriptor.errors.forEach(function(error) {
-									var err = new Error("Got '" + error[0] + "' error '" + error[1] + "' for file '" + PATH.join("assets/packages", filename) + "'");
+									var err = new Error("Got '" + error[0] + "' error '" + error[1] + "' for file '" + PATH.join(options.rootPath, "packages", filename) + "'");
 									err.stack = error[2];
 									throw err;
 								});
@@ -124,11 +128,11 @@ describe('package-insight', function() {
 							if (MODE === "test") {
 								ASSERT.deepEqual(
 									descriptor,
-									JSON.parse(FS.readFileSync(PATH.join(__dirname, "assets/packages", filename + ".insight.json")))
+									JSON.parse(FS.readFileSync(PATH.join(options.rootPath, "packages", filename + ".insight.json")))
 								);
 							} else
 							if (MODE === "write") {
-								FS.outputFileSync(PATH.join(__dirname, "assets/packages", filename + ".insight.json"), JSON.stringify(descriptor, null, 4));
+								FS.outputFileSync(PATH.join(options.rootPath, "packages", filename + ".insight.json"), JSON.stringify(descriptor, null, 4));
 							} else {
 								throw new Error("Unknown `MODE`");
 							}
