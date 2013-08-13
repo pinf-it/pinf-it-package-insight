@@ -1,4 +1,6 @@
 {
+    "dirpath": "packages/node-dependency-not-declare",
+    "id": "7c39af25c7e8142807cb3908a3b829058921429c-node-dependency-not-declare",
     "raw": {
         "package.json": {
             "main": "app.js"
@@ -21,6 +23,9 @@
                 "bundled": {
                     "greeting": "./node_modules/greeting"
                 }
+            },
+            "mappings": {
+                "greeting": "275b1739d304b77fdad7b9388d6ef9984eb55a92-greeting"
             }
         }
     },
@@ -41,8 +46,9 @@
                 "greeting": "./node_modules/greeting"
             }
         },
-        "dirpath": "packages/node-dependency-not-declare",
-        "id": "7c39af25c7e8142807cb3908a3b829058921429c-node-dependency-not-declare"
+        "mappings": {
+            "greeting": "275b1739d304b77fdad7b9388d6ef9984eb55a92-greeting"
+        }
     },
     "warnings": [],
     "errors": []

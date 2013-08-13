@@ -1,4 +1,6 @@
 {
+    "dirpath": "packages/nodejs-main-3",
+    "id": "8e8c7afc464f538e85a20c00c2e7b98a4b36014f-nodejs-main-3",
     "raw": {
         "package.json": {
             "main": "app.js"
@@ -14,9 +16,7 @@
     "combined": {
         "exports": {
             "main": "./app.js"
-        },
-        "dirpath": "packages/nodejs-main-3",
-        "id": "8e8c7afc464f538e85a20c00c2e7b98a4b36014f-nodejs-main-3"
+        }
     },
     "warnings": [],
     "errors": []

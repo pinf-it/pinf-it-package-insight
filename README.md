@@ -30,6 +30,7 @@ Usage
 	}, function(err, descriptor) {
 		// `descriptor.raw`
 		// `descriptor.notmalized`
+		// `descriptor.combined`
 		// `descriptor.warnings`
 		// `descriptor.errors`
 	});

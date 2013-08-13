@@ -1,4 +1,6 @@
 {
+    "dirpath": "packages/nodejs-main-5",
+    "id": "24bfb99bc74b61da7e00392d1c0fae907ebd5fc6-nodejs-main-5",
     "raw": {
         "package.json": {
             "main": "app"
@@ -14,9 +16,7 @@
     "combined": {
         "exports": {
             "main": "./app"
-        },
-        "dirpath": "packages/nodejs-main-5",
-        "id": "24bfb99bc74b61da7e00392d1c0fae907ebd5fc6-nodejs-main-5"
+        }
     },
     "warnings": [],
     "errors": []
