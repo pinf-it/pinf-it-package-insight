@@ -1,0 +1,7 @@
+{
+	"env": {
+		"TERM": "$TERM",
+		"TERM_INHERITED": "$TERM",
+		"TERM_OWN": "own-term"		
+	}
+}

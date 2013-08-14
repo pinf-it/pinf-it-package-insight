@@ -1,0 +1,29 @@
+{
+    "dirpath": "packages/declare-extends",
+    "id": "3de8a21307655e7bb3c4750fa604287ed04492c9-declare-extends",
+    "raw": {
+        "package.json": {
+            "@extends": [
+                "super-package"
+            ]
+        }
+    },
+    "normalized": {
+        "package.json": {
+            "@extends": [
+                [
+                    "super-package"
+                ]
+            ]
+        }
+    },
+    "combined": {
+        "@extends": [
+            [
+                "super-package"
+            ]
+        ]
+    },
+    "warnings": [],
+    "errors": []
+}
