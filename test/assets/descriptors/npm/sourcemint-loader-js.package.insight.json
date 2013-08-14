@@ -41,17 +41,19 @@
             }
         },
         "config": {
-            "shrinkwrap": true,
+            "shrinkwrap": true
+        },
+        "exports": {
             "scripts": {
                 "test": "node tests/examples"
             },
+            "main": "./loader.js"
+        },
+        "layout": {
             "directories": {
                 "lib": ".",
                 "dependency": "./node_modules"
             }
-        },
-        "exports": {
-            "main": "./loader.js"
         },
         "files": {
             "readme": "./README.md"

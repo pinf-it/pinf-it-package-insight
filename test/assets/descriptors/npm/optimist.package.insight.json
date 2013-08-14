@@ -68,13 +68,18 @@
                 "tap": "~0.2.4"
             }
         },
-        "config": {
+        "requirements": {
             "engines": {
                 "node": ">=0.4"
-            },
+            }
+        },
+        "exports": {
             "scripts": {
                 "test": "tap ./test/*.js"
             },
+            "main": "./index.js"
+        },
+        "layout": {
             "directories": {
                 "lib": ".",
                 "test": "./test",
@@ -84,9 +89,6 @@
         "licenses": [
             "MIT/X11"
         ],
-        "exports": {
-            "main": "./index.js"
-        },
         "files": {
             "readme": "./README.markdown"
         },

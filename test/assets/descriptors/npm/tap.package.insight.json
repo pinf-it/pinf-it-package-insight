@@ -99,10 +99,13 @@
         "config": {
             "bin": {
                 "tap": "bin/tap.js"
-            },
+            }
+        },
+        "exports": {
             "scripts": {
                 "test": "bin/tap.js test/*.js"
-            }
+            },
+            "main": "./lib/main.js"
         },
         "licenses": [
             {
@@ -110,9 +113,6 @@
                 "url": "https://github.com/isaacs/node-tap/raw/master/LICENSE"
             }
         ],
-        "exports": {
-            "main": "./lib/main.js"
-        },
         "files": {
             "readme": "./README.md"
         },

@@ -126,7 +126,9 @@
         "config": {
             "bin": {
                 "nodeunit": "./bin/nodeunit"
-            },
+            }
+        },
+        "layout": {
             "directories": {
                 "lib": "./lib",
                 "doc": "./doc",

@@ -52,13 +52,16 @@
                 "url": "http://github.com/ajaxorg/node-amd-loader.git"
             }
         ],
-        "config": {
+        "requirements": {
             "engines": {
                 "node": ">= 0.4.11"
-            },
+            }
+        },
+        "exports": {
             "scripts": {
                 "test": "node test/test.js"
-            }
+            },
+            "main": "./lib/amd-loader"
         },
         "licenses": [
             {
@@ -66,9 +69,6 @@
                 "url": "http://github.com/ajaxorg/node-amd-loader/raw/master/LICENSE"
             }
         ],
-        "exports": {
-            "main": "./lib/amd-loader"
-        },
         "files": {
             "readme": "./README.md"
         },

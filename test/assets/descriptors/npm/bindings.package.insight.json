@@ -41,7 +41,7 @@
                 "url": "git://github.com/TooTallNate/node-bindings.git"
             }
         ],
-        "config": {
+        "requirements": {
             "engines": {
                 "node": "*"
             }

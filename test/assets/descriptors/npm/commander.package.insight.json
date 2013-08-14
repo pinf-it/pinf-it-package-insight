@@ -52,15 +52,15 @@
                 "should": ">= 0.0.1"
             }
         },
-        "config": {
+        "requirements": {
             "engines": {
                 "node": ">= 0.4.x"
-            },
-            "scripts": {
-                "test": "make test"
             }
         },
         "exports": {
+            "scripts": {
+                "test": "make test"
+            },
             "main": "./index"
         },
         "files": {

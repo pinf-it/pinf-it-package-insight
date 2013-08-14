@@ -203,13 +203,17 @@
                 "optimist": "*"
             }
         },
-        "config": {
+        "requirements": {
             "engines": {
                 "node": ">=0.1.9"
-            },
+            }
+        },
+        "layout": {
             "directories": {
                 "lib": "./lib/jsdom"
-            },
+            }
+        },
+        "config": {
             "implements": [
                 "http://www.w3.org/TR/REC-DOM-Level-1"
             ]

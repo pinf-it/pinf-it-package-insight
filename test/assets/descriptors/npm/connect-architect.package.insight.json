@@ -76,12 +76,9 @@
                 "request": "2.11.1"
             }
         },
-        "config": {
+        "exports": {
             "scripts": {
                 "test": "node test/all.js"
-            },
-            "directories": {
-                "dependency": "./node_modules"
             }
         },
         "licenses": [
@@ -106,7 +103,12 @@
                 "name": "Christoph Dorn",
                 "email": "christoph@christophdorn.com"
             }
-        ]
+        ],
+        "layout": {
+            "directories": {
+                "dependency": "./node_modules"
+            }
+        }
     },
     "warnings": [],
     "errors": []

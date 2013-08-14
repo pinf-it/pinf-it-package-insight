@@ -64,14 +64,18 @@
                 "jison": ">=0.2.0"
             }
         },
-        "config": {
+        "requirements": {
             "engines": {
                 "node": ">=0.4.0"
-            },
+            }
+        },
+        "config": {
             "bin": {
                 "coffee": "./bin/coffee",
                 "cake": "./bin/cake"
-            },
+            }
+        },
+        "layout": {
             "directories": {
                 "lib": "./lib/coffee-script"
             }

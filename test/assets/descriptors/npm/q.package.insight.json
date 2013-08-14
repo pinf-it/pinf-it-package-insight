@@ -94,14 +94,19 @@
                 "test": ">=0.3.0"
             }
         },
-        "config": {
+        "requirements": {
             "engines": {
                 "node": ">=0.2.0",
                 "teleport": ">=0.2.0"
-            },
+            }
+        },
+        "exports": {
             "scripts": {
                 "test": "node test/all.js"
             },
+            "main": "./q.js"
+        },
+        "layout": {
             "directories": {
                 "test": "./test"
             }
@@ -122,9 +127,6 @@
                 "url": "http://github.com/kriskowal/q/raw/master/LICENSE"
             }
         ],
-        "exports": {
-            "main": "./q.js"
-        },
         "files": {
             "readme": "./README.md"
         },

@@ -31,7 +31,7 @@
             }
         ],
         "directories": {
-            "lib": "lib/ace"
+            "lib": "./lib/ace"
         },
         "scripts": {
             "test": "node lib/ace/test/all.js",
@@ -82,6 +82,23 @@
                 "ace": "."
             }
         },
+        "requirements": {
+            "engines": {
+                "node": ">= 0.6.0"
+            }
+        },
+        "exports": {
+            "scripts": {
+                "test": "node lib/ace/test/all.js",
+                "postinstall": "node ./install.js -c"
+            },
+            "main": "./lib/ace"
+        },
+        "layout": {
+            "directories": {
+                "lib": "./lib/ace"
+            }
+        },
         "config": {
             "github.com/sourcemint/bundler-js/0/-meta/config/0": {
                 "adapter": "github.com/sourcemint/sdk-requirejs/0",
@@ -111,9 +128,6 @@
                 "url": "http://opensource.org/licenses/BSD-3-Clause"
             }
         ],
-        "exports": {
-            "main": "./lib/ace"
-        },
         "contributors": [
             "Fabian Jakobs <fabian@ajax.org>"
         ]

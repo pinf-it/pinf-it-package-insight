@@ -33,12 +33,10 @@
                 "url": "http://github.com/isaacs/abbrev-js"
             }
         ],
-        "config": {
+        "exports": {
             "scripts": {
                 "test": "node lib/abbrev.js"
-            }
-        },
-        "exports": {
+            },
             "main": "./lib/abbrev.js"
         },
         "files": {

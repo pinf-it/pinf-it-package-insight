@@ -68,17 +68,21 @@
                 "url": "https://github.com/tautologistics/node-htmlparser"
             }
         ],
-        "config": {
+        "requirements": {
             "engines": {
                 "node": ">=0.1.33"
-            },
+            }
+        },
+        "config": {
             "os": [
                 "linux",
                 "darwin",
                 "freebsd",
                 "win32",
                 "openbsd"
-            ],
+            ]
+        },
+        "layout": {
             "directories": {
                 "lib": "./lib"
             }
