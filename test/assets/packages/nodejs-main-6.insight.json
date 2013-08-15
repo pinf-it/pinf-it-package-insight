@@ -1,21 +1,9 @@
 {
     "dirpath": "packages/nodejs-main-6",
     "id": "3c1f461a49a5e43474d9f4cfd91b27eb099befd2-nodejs-main-6",
-    "raw": {
-        "package.json": {}
-    },
-    "normalized": {
-        "package.json": {
-            "exports": {
-                "main": "./index.js"
-            }
-        }
-    },
-    "combined": {
-        "exports": {
-            "main": "./index.js"
-        }
-    },
+    "raw": {},
+    "normalized": {},
+    "combined": {},
     "warnings": [],
     "errors": []
 }
