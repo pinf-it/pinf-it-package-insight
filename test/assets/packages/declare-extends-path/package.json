@@ -1,0 +1,9 @@
+{
+	"@extends": [
+		"./node_modules/super-package"
+	],
+	"scripts": {
+		"script1": "echo 'script1: $__DIRNAME'",
+		"script2": "echo 'script2: $__DIRNAME'"
+	}	
+}

@@ -19,7 +19,7 @@
             "parser"
         ],
         "directories": {
-            "lib": "./lib"
+            "lib": "./lib/"
         },
         "main": "./lib/htmlparser",
         "homepage": "http://github.com/tautologistics/node-htmlparser",

@@ -1,0 +1,12 @@
+{
+	"@extends": ["<-", "./extends.json"],
+	"scripts": {
+		"script1": "echo 'script1: $__DIRNAME'",
+		"script2": "echo 'script2: $__DIRNAME'"
+	},
+	"layout": {
+		"directories": {
+			"packages": "../declare-extends-id/packages"
+		}
+	}
+}

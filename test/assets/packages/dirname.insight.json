@@ -1,0 +1,29 @@
+{
+    "dirpath": "packages/dirname",
+    "id": "1c972e2dab31bcf114492ac44d079322ea7e10df-dirname",
+    "raw": {
+        "package.json": {
+            "scripts": {
+                "script1": "echo 'script1: packages/dirname'"
+            }
+        }
+    },
+    "normalized": {
+        "package.json": {
+            "exports": {
+                "scripts": {
+                    "script1": "echo 'script1: packages/dirname'"
+                }
+            }
+        }
+    },
+    "combined": {
+        "exports": {
+            "scripts": {
+                "script1": "echo 'script1: packages/dirname'"
+            }
+        }
+    },
+    "warnings": [],
+    "errors": []
+}

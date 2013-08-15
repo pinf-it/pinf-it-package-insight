@@ -1,0 +1,70 @@
+{
+    "dirpath": "packages/declare-extends-path",
+    "id": "d28556038c837d4ad0c721d42e2c3d204b38a32d-declare-extends-path",
+    "raw": {
+        "package.json": {
+            "scripts": {
+                "script3": "echo 'script3: packages/declare-extends-path/node_modules/super-package'",
+                "script4": "echo 'script4: packages/declare-extends-path/node_modules/super-package'",
+                "script2": "echo 'script2: packages/declare-extends-path'",
+                "script1": "echo 'script1: packages/declare-extends-path'"
+            }
+        }
+    },
+    "normalized": {
+        "package.json": {
+            "exports": {
+                "scripts": {
+                    "script3": "echo 'script3: packages/declare-extends-path/node_modules/super-package'",
+                    "script4": "echo 'script4: packages/declare-extends-path/node_modules/super-package'",
+                    "script2": "echo 'script2: packages/declare-extends-path'",
+                    "script1": "echo 'script1: packages/declare-extends-path'"
+                }
+            },
+            "pm": {
+                "install": "npm"
+            },
+            "layout": {
+                "directories": {
+                    "dependency": "./node_modules"
+                }
+            },
+            "dependencies": {
+                "bundled": {
+                    "super-package": "./node_modules/super-package"
+                }
+            },
+            "mappings": {
+                "super-package": "307398c7a65b12938ce28642d66e5fe019529208-super-package"
+            }
+        }
+    },
+    "combined": {
+        "exports": {
+            "scripts": {
+                "script3": "echo 'script3: packages/declare-extends-path/node_modules/super-package'",
+                "script4": "echo 'script4: packages/declare-extends-path/node_modules/super-package'",
+                "script2": "echo 'script2: packages/declare-extends-path'",
+                "script1": "echo 'script1: packages/declare-extends-path'"
+            }
+        },
+        "pm": {
+            "install": "npm"
+        },
+        "layout": {
+            "directories": {
+                "dependency": "./node_modules"
+            }
+        },
+        "dependencies": {
+            "bundled": {
+                "super-package": "./node_modules/super-package"
+            }
+        },
+        "mappings": {
+            "super-package": "307398c7a65b12938ce28642d66e5fe019529208-super-package"
+        }
+    },
+    "warnings": [],
+    "errors": []
+}

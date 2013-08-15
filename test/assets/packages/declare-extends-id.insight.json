@@ -1,0 +1,51 @@
+{
+    "dirpath": "packages/declare-extends-id",
+    "id": "0841d22ce7122c9ad05c2fe9bc96ca24e3631b04-declare-extends-id",
+    "raw": {
+        "package.json": {
+            "scripts": {
+                "script3": "echo 'script3: packages/declare-extends-id/packages/super-package'",
+                "script4": "echo 'script4: packages/declare-extends-id/packages/super-package'",
+                "script2": "echo 'script2: packages/declare-extends-id'",
+                "script1": "echo 'script1: packages/declare-extends-id'"
+            },
+            "directories": {
+                "packages": "./packages"
+            }
+        }
+    },
+    "normalized": {
+        "package.json": {
+            "exports": {
+                "scripts": {
+                    "script3": "echo 'script3: packages/declare-extends-id/packages/super-package'",
+                    "script4": "echo 'script4: packages/declare-extends-id/packages/super-package'",
+                    "script2": "echo 'script2: packages/declare-extends-id'",
+                    "script1": "echo 'script1: packages/declare-extends-id'"
+                }
+            },
+            "layout": {
+                "directories": {
+                    "packages": "./packages"
+                }
+            }
+        }
+    },
+    "combined": {
+        "exports": {
+            "scripts": {
+                "script3": "echo 'script3: packages/declare-extends-id/packages/super-package'",
+                "script4": "echo 'script4: packages/declare-extends-id/packages/super-package'",
+                "script2": "echo 'script2: packages/declare-extends-id'",
+                "script1": "echo 'script1: packages/declare-extends-id'"
+            }
+        },
+        "layout": {
+            "directories": {
+                "packages": "./packages"
+            }
+        }
+    },
+    "warnings": [],
+    "errors": []
+}

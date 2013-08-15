@@ -7,8 +7,7 @@
         "shrinkwrap": true,
         "main": "loader.js",
         "directories": {
-            "lib": ".",
-            "dependency": "./node_modules"
+            "lib": "."
         },
         "devDependencies": {
             "q": "0.x",

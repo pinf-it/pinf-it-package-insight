@@ -1,0 +1,53 @@
+{
+    "dirpath": "packages/config-inject",
+    "id": "9c07eb834ce1afc58b1c17c04a632a5a503b0392-config-inject",
+    "raw": {
+        "package.json": {
+            "scripts": {
+                "script3": "echo 'script3: packages/declare-extends-id/packages/super-package'",
+                "script4": "echo 'script4: packages/declare-extends-id/packages/super-package'",
+                "script2": "echo 'script2: packages/config-inject'",
+                "script1": "echo 'script1: packages/config-inject'"
+            },
+            "layout": {
+                "directories": {
+                    "packages": "../declare-extends-id/packages"
+                }
+            }
+        }
+    },
+    "normalized": {
+        "package.json": {
+            "exports": {
+                "scripts": {
+                    "script3": "echo 'script3: packages/declare-extends-id/packages/super-package'",
+                    "script4": "echo 'script4: packages/declare-extends-id/packages/super-package'",
+                    "script2": "echo 'script2: packages/config-inject'",
+                    "script1": "echo 'script1: packages/config-inject'"
+                }
+            },
+            "layout": {
+                "directories": {
+                    "packages": "../declare-extends-id/packages"
+                }
+            }
+        }
+    },
+    "combined": {
+        "exports": {
+            "scripts": {
+                "script3": "echo 'script3: packages/declare-extends-id/packages/super-package'",
+                "script4": "echo 'script4: packages/declare-extends-id/packages/super-package'",
+                "script2": "echo 'script2: packages/config-inject'",
+                "script1": "echo 'script1: packages/config-inject'"
+            }
+        },
+        "layout": {
+            "directories": {
+                "packages": "../declare-extends-id/packages"
+            }
+        }
+    },
+    "warnings": [],
+    "errors": []
+}

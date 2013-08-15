@@ -1,0 +1,9 @@
+{
+	"@extends": [
+		"./package.json"
+	],
+	"scripts": {
+		"script2": "echo 'script2: $__DIRNAME'",
+		"script3": "echo 'script3: $__DIRNAME'"
+	}	
+}

@@ -1,0 +1,6 @@
+{
+	"scripts": {
+		"script3": "echo 'script3: $__DIRNAME'",
+		"script4": "echo 'script4: $__DIRNAME'"
+	}
+}
