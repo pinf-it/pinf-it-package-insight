@@ -1,6 +1,13 @@
 {
     "dirpath": "packages/nodejs-main-1",
     "id": "4b2a03d470b978db6c55578c7b8573d6c2561bdb-nodejs-main-1",
+    "lookupPaths": [
+        "packages/nodejs-main-1/package.json",
+        "packages/nodejs-main-1/.package.json"
+    ],
+    "descriptorPaths": [
+        "packages/nodejs-main-1/package.json"
+    ],
     "raw": {
         "package.json": {
             "main": "./app.js"

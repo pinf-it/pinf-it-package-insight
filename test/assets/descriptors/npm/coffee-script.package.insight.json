@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/coffee-script.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/coffee-script.package.json"
+    ],
     "raw": {
         "name": "coffee-script",
         "description": "Unfancy JavaScript",

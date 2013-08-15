@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/bunker.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/bunker.package.json"
+    ],
     "raw": {
         "name": "bunker",
         "version": "0.1.2",

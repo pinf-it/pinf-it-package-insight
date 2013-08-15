@@ -1,6 +1,13 @@
 {
     "dirpath": "packages/nodejs-main-4",
     "id": "21defa5bc6e332023affead0ca75739ae72a2ac3-nodejs-main-4",
+    "lookupPaths": [
+        "packages/nodejs-main-4/package.json",
+        "packages/nodejs-main-4/.package.json"
+    ],
+    "descriptorPaths": [
+        "packages/nodejs-main-4/package.json"
+    ],
     "raw": {
         "package.json": {
             "main": "app"

@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/component/cbou-jquery-mobile.component.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/component/cbou-jquery-mobile.component.json"
+    ],
     "raw": {
         "name": "jquery-mobile",
         "repo": "cbou/jquery-mobile",

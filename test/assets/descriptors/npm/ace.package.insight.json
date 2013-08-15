@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/ace.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/ace.package.json"
+    ],
     "raw": {
         "name": "ace",
         "description": "Ajax.org Code Editor is a full featured source code highlighting editor that powers the Cloud9 IDE",

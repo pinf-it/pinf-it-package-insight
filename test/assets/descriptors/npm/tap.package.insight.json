@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/tap.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/tap.package.json"
+    ],
     "raw": {
         "name": "tap",
         "version": "0.3.2",

@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/sourcemint-loader-js.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/sourcemint-loader-js.package.json"
+    ],
     "raw": {
         "uid": "https://github.com/sourcemint/loader-js/",
         "name": "sourcemint-loader-js",

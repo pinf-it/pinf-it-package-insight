@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/bindings.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/bindings.package.json"
+    ],
     "raw": {
         "name": "bindings",
         "description": "Helper module for loading your native module's bindings",

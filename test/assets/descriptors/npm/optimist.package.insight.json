@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/optimist.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/optimist.package.json"
+    ],
     "raw": {
         "name": "optimist",
         "version": "0.3.4",

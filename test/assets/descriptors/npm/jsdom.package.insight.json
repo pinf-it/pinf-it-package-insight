@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/jsdom.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/jsdom.package.json"
+    ],
     "raw": {
         "name": "jsdom",
         "version": "0.2.10",

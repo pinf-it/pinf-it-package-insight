@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/component/component-calendar.component.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/component/component-calendar.component.json"
+    ],
     "raw": {
         "name": "calendar",
         "repo": "component/calendar",

@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/engine.io-client.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/engine.io-client.package.json"
+    ],
     "raw": {
         "name": "engine.io-client",
         "description": "Client for the realtime Engine",

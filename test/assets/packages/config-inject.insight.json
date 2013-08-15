@@ -1,6 +1,17 @@
 {
     "dirpath": "packages/config-inject",
     "id": "9c07eb834ce1afc58b1c17c04a632a5a503b0392-config-inject",
+    "lookupPaths": [
+        "packages/declare-extends-id/packages/super-package/package.json",
+        "packages/declare-extends-id/packages/super-package/package.prototype.json",
+        "packages/config-inject/package.json",
+        "packages/config-inject/.package.json"
+    ],
+    "descriptorPaths": [
+        "packages/declare-extends-id/packages/super-package/package.json",
+        "packages/declare-extends-id/packages/super-package/package.prototype.json",
+        "packages/config-inject/package.json"
+    ],
     "raw": {
         "package.json": {
             "scripts": {

@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/abbrev.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/abbrev.package.json"
+    ],
     "raw": {
         "name": "abbrev",
         "version": "1.0.3",

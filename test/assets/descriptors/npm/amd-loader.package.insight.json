@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/amd-loader.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/amd-loader.package.json"
+    ],
     "raw": {
         "name": "amd-loader",
         "version": "0.0.4",

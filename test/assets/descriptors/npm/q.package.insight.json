@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/q.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/q.package.json"
+    ],
     "raw": {
         "name": "q",
         "version": "0.8.2",

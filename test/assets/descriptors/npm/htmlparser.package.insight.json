@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/htmlparser.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/htmlparser.package.json"
+    ],
     "raw": {
         "name": "htmlparser",
         "description": "Forgiving HTML/XML/RSS Parser in JS for *both* Node and Browsers",

@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/connect-architect.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/connect-architect.package.json"
+    ],
     "raw": {
         "name": "connect-architect",
         "description": "build a connect server using architect plugins",

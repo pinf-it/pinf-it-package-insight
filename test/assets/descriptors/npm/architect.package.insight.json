@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/architect.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/architect.package.json"
+    ],
     "raw": {
         "name": "architect",
         "description": "A Simple yet powerful plugin system for node applications",

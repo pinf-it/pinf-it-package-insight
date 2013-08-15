@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/nodeunit.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/nodeunit.package.json"
+    ],
     "raw": {
         "name": "nodeunit",
         "description": "Easy unit testing for node.js and the browser.",

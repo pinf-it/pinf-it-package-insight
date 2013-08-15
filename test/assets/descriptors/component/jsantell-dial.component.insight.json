@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/component/jsantell-dial.component.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/component/jsantell-dial.component.json"
+    ],
     "raw": {
         "name": "dial",
         "author": "Jordan Santell",

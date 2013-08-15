@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/commander.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/commander.package.json"
+    ],
     "raw": {
         "name": "commander",
         "version": "0.5.2",

@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/npm/connect.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/connect.package.json"
+    ],
     "raw": {
         "name": "connect",
         "version": "1.9.1",

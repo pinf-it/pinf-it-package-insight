@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/component/matthewmueller-autocomplete.component.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/component/matthewmueller-autocomplete.component.json"
+    ],
     "raw": {
         "name": "autocomplete",
         "repo": "matthewmueller/autocomplete",

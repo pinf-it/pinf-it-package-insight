@@ -1,6 +1,13 @@
 {
     "dirpath": "packages/dirname",
     "id": "1c972e2dab31bcf114492ac44d079322ea7e10df-dirname",
+    "lookupPaths": [
+        "packages/dirname/package.json",
+        "packages/dirname/.package.json"
+    ],
+    "descriptorPaths": [
+        "packages/dirname/package.json"
+    ],
     "raw": {
         "package.json": {
             "scripts": {
