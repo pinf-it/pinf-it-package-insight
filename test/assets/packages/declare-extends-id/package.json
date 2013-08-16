@@ -2,6 +2,10 @@
 	"@extends": [
 		"super-package"
 	],
+	"on": {
+		"pinf-start": "on pinf-start: $__DIRNAME",
+		"pinf-stop": "on pinf-start: $__DIRNAME"
+	},
 	"scripts": {
 		"script1": "echo 'script1: $__DIRNAME'",
 		"script2": "echo 'script2: $__DIRNAME'"

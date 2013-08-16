@@ -20,6 +20,10 @@
                 "script2": "echo 'script2: packages/declare-extends-id'",
                 "script1": "echo 'script1: packages/declare-extends-id'"
             },
+            "on": {
+                "pinf-start": "on pinf-start: packages/declare-extends-id",
+                "pinf-stop": "on pinf-start: packages/declare-extends-id"
+            },
             "directories": {
                 "packages": "./packages"
             }
@@ -36,6 +40,12 @@
                     "script1": "echo 'script1: packages/declare-extends-id'"
                 }
             },
+            "events": {
+                "listen": {
+                    "pinf-start": "on pinf-start: packages/declare-extends-id",
+                    "pinf-stop": "on pinf-start: packages/declare-extends-id"
+                }
+            },
             "layout": {
                 "directories": {
                     "packages": "./packages"
@@ -50,6 +60,12 @@
                 "script4": "echo 'script4: packages/declare-extends-id/packages/super-package'",
                 "script2": "echo 'script2: packages/declare-extends-id'",
                 "script1": "echo 'script1: packages/declare-extends-id'"
+            }
+        },
+        "events": {
+            "listen": {
+                "pinf-start": "on pinf-start: packages/declare-extends-id",
+                "pinf-stop": "on pinf-start: packages/declare-extends-id"
             }
         },
         "layout": {
