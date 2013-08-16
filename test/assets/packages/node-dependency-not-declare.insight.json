@@ -14,6 +14,24 @@
         }
     },
     "normalized": {
+        ".package.json": {
+            "pm": {
+                "install": "npm"
+            },
+            "layout": {
+                "directories": {
+                    "dependency": "./node_modules"
+                }
+            },
+            "dependencies": {
+                "bundled": {
+                    "greeting": "./node_modules/greeting"
+                }
+            },
+            "mappings": {
+                "greeting": "275b1739d304b77fdad7b9388d6ef9984eb55a92-greeting"
+            }
+        },
         "package.json": {
             "exports": {
                 "main": "./app.js"

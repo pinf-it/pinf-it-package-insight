@@ -26,6 +26,7 @@
         }
     },
     "normalized": {
+        ".package.json": {},
         "package.json": {
             "exports": {
                 "scripts": {

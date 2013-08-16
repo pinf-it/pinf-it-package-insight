@@ -7,8 +7,23 @@
     ],
     "descriptorPaths": [],
     "raw": {},
-    "normalized": {},
-    "combined": {},
+    "normalized": {
+        ".package.json": {
+            "exports": {
+                "main": "./index.js"
+            }
+        },
+        "package.json": {
+            "exports": {
+                "main": "./index.js"
+            }
+        }
+    },
+    "combined": {
+        "exports": {
+            "main": "./index.js"
+        }
+    },
     "warnings": [],
     "errors": []
 }

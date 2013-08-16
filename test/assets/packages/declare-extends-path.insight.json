@@ -23,6 +23,24 @@
         }
     },
     "normalized": {
+        ".package.json": {
+            "pm": {
+                "install": "npm"
+            },
+            "layout": {
+                "directories": {
+                    "dependency": "./node_modules"
+                }
+            },
+            "dependencies": {
+                "bundled": {
+                    "super-package": "./node_modules/super-package"
+                }
+            },
+            "mappings": {
+                "super-package": "307398c7a65b12938ce28642d66e5fe019529208-super-package"
+            }
+        },
         "package.json": {
             "exports": {
                 "scripts": {

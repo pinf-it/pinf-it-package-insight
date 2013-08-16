@@ -14,6 +14,7 @@
         }
     },
     "normalized": {
+        ".package.json": {},
         "package.json": {
             "exports": {
                 "main": "./app.js"

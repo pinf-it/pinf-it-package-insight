@@ -18,6 +18,7 @@
         }
     },
     "normalized": {
+        ".package.json": {},
         "package.json": {
             "requirements": {
                 "env": {
