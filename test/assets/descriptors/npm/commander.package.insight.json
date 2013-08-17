@@ -84,7 +84,12 @@
                 "name": "TJ Holowaychuk",
                 "email": "tj@vision-media.ca"
             }
-        ]
+        ],
+        "layout": {
+            "directories": {
+                "dependency": "./node_modules"
+            }
+        }
     },
     "warnings": [],
     "errors": []

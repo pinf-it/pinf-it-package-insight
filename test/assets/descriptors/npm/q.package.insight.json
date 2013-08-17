@@ -114,7 +114,8 @@
         },
         "layout": {
             "directories": {
-                "test": "./test"
+                "test": "./test",
+                "dependency": "./node_modules"
             }
         },
         "overlay": {

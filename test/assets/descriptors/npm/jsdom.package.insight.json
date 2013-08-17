@@ -216,7 +216,8 @@
         },
         "layout": {
             "directories": {
-                "lib": "./lib/jsdom"
+                "lib": "./lib/jsdom",
+                "dependency": "./node_modules"
             }
         },
         "config": {

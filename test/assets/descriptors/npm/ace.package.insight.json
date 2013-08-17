@@ -102,7 +102,8 @@
         },
         "layout": {
             "directories": {
-                "lib": "./lib/ace"
+                "lib": "./lib/ace",
+                "dependency": "./node_modules"
             }
         },
         "config": {

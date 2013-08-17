@@ -89,7 +89,8 @@
             "directories": {
                 "lib": ".",
                 "test": "./test",
-                "example": "./example"
+                "example": "./example",
+                "dependency": "./node_modules"
             }
         },
         "licenses": [

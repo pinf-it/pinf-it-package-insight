@@ -90,7 +90,8 @@
         },
         "layout": {
             "directories": {
-                "lib": "./lib"
+                "lib": "./lib",
+                "dependency": "./node_modules"
             }
         },
         "licenses": [

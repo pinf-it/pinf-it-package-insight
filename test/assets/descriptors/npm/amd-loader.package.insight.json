@@ -87,7 +87,12 @@
                 "name": "Fabian Jakobs",
                 "email": "fabian@ajax.org"
             }
-        ]
+        ],
+        "layout": {
+            "directories": {
+                "dependency": "./node_modules"
+            }
+        }
     },
     "warnings": [],
     "errors": []

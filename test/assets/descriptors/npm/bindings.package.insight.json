@@ -71,7 +71,12 @@
                 "email": "nathan@tootallnate.net",
                 "url": "http://tootallnate.net"
             }
-        ]
+        ],
+        "layout": {
+            "directories": {
+                "dependency": "./node_modules"
+            }
+        }
     },
     "warnings": [],
     "errors": []

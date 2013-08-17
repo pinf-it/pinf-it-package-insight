@@ -83,7 +83,8 @@
         },
         "layout": {
             "directories": {
-                "lib": "./lib/coffee-script"
+                "lib": "./lib/coffee-script",
+                "dependency": "./node_modules"
             }
         },
         "licenses": [
