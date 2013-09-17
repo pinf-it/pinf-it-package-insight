@@ -129,7 +129,7 @@
                 "should": ">=0.4.2"
             }
         },
-        "config": {
+        "exports": {
             "bin": {
                 "nodeunit": "./bin/nodeunit"
             }

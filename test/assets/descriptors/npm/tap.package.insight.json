@@ -102,12 +102,10 @@
                 "yamlish": false
             }
         },
-        "config": {
+        "exports": {
             "bin": {
                 "tap": "bin/tap.js"
-            }
-        },
-        "exports": {
+            },
             "scripts": {
                 "test": "bin/tap.js test/*.js"
             },

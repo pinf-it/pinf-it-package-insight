@@ -65,6 +65,10 @@
                     }
                 }
             }
+        },
+        "require.async": {
+            "./lib/ace/virtual_renderer.js": "./theme/orange",
+            "lib/ace/worker/worker_client.js": "./worker/worker_sourcemint.js"
         }
     },
     "normalized": {
@@ -105,6 +109,10 @@
                 "lib": "./lib/ace",
                 "dependency": "./node_modules"
             }
+        },
+        "require.async": {
+            "./lib/ace/virtual_renderer.js": "./theme/orange",
+            "./lib/ace/worker/worker_client.js": "./worker/worker_sourcemint.js"
         },
         "config": {
             "github.com/sourcemint/bundler-js/0/-meta/config/0": {

@@ -75,11 +75,12 @@
                 "node": ">=0.4.0"
             }
         },
-        "config": {
+        "exports": {
             "bin": {
                 "coffee": "./bin/coffee",
                 "cake": "./bin/cake"
-            }
+            },
+            "main": "./lib/coffee-script/coffee-script"
         },
         "layout": {
             "directories": {
@@ -93,9 +94,6 @@
                 "url": "http://github.com/jashkenas/coffee-script/raw/master/LICENSE"
             }
         ],
-        "exports": {
-            "main": "./lib/coffee-script/coffee-script"
-        },
         "files": {
             "readme": "./README"
         },

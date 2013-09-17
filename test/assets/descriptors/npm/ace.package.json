@@ -57,5 +57,9 @@
                 }
             }
         }
+    },
+    "require.async": {
+        "./lib/ace/virtual_renderer.js": "./theme/orange",
+        "lib/ace/worker/worker_client.js": "./worker/worker_sourcemint.js"
     }
 }
