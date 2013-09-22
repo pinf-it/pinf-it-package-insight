@@ -1,5 +1,6 @@
 {
     "dirpath": "packages/nodejs-main-2",
+    "dirrealpath": "packages/nodejs-main-2",
     "id": "53b02f23b95bc77384c918296f63609ec1180526-nodejs-main-2",
     "lookupPaths": [
         "packages/nodejs-main-2/package.json",

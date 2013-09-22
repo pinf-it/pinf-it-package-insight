@@ -1,5 +1,6 @@
 {
     "dirpath": "packages/node-dependency-not-declare",
+    "dirrealpath": "packages/node-dependency-not-declare",
     "id": "7c39af25c7e8142807cb3908a3b829058921429c-node-dependency-not-declare",
     "lookupPaths": [
         "packages/node-dependency-not-declare/package.json",

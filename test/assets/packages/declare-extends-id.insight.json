@@ -1,5 +1,6 @@
 {
     "dirpath": "packages/declare-extends-id",
+    "dirrealpath": "packages/declare-extends-id",
     "id": "0841d22ce7122c9ad05c2fe9bc96ca24e3631b04-declare-extends-id",
     "lookupPaths": [
         "packages/declare-extends-id/packages/super-package/package.json",

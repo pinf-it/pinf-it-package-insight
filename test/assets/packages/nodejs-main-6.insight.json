@@ -1,5 +1,6 @@
 {
     "dirpath": "packages/nodejs-main-6",
+    "dirrealpath": "packages/nodejs-main-6",
     "id": "3c1f461a49a5e43474d9f4cfd91b27eb099befd2-nodejs-main-6",
     "lookupPaths": [
         "packages/nodejs-main-6/package.json",

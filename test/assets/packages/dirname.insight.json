@@ -1,5 +1,6 @@
 {
     "dirpath": "packages/dirname",
+    "dirrealpath": "packages/dirname",
     "id": "1c972e2dab31bcf114492ac44d079322ea7e10df-dirname",
     "lookupPaths": [
         "packages/dirname/package.json",

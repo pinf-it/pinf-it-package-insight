@@ -1,5 +1,6 @@
 {
     "dirpath": "packages/requirements-env",
+    "dirrealpath": "packages/requirements-env",
     "id": "b8e45b12518504247e583187d15d7c8958ebe291-requirements-env",
     "lookupPaths": [
         "packages/requirements-env/package.json",
