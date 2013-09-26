@@ -1,0 +1,88 @@
+{
+  "name": "pinf-for-nodejs",
+  "version": "0.1.3",
+  "pm": "npm",
+  "publish": true,
+  "main": "lib/pinf.js",
+  "bin": {
+    "pinf": "./bin/pinf"
+  },
+  "dependencies": {
+    "fs-extra": "~0.6.4",
+    "pinf-loader-js": "~0.4.5",
+    "request": "~2.21.0",
+    "waitfor": "~0.1.3",
+    "deepmerge": "~0.2.7",
+    "commander": "~2.0.0",
+    "colors": "~0.6.1",
+    "pinf-primitives-js": "~0.1.0",
+    "pinf-it-package-insight": "~0.1.3",
+    "pinf-it-program-insight": "~0.1.0",
+    "deepcopy": "~0.3.1",
+    "require.async": "~0.1.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.9.0",
+    "grunt": "~0.4.1",
+    "grunt-mocha": "~0.3.1",
+    "q": "~0.9.3"
+  },
+  "mappings": {
+    "pinf-it-bundler": "github.com/pinf-it/pinf-it-bundler/~0.1.1"
+  },
+  "devMappings": {
+    "pinf-loader-js": "github.com/pinf/pinf-loader-js/~0.4.5"
+  },
+  "require.async": {
+    "./lib/main.js": "./context"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter list test/*.js",
+    "build": "./bin/pinf bundle"
+  },
+  "exports": {
+    "bundles": {
+      "lib/pinf.js": "./lib/pinf.js",
+      "lib/main.js": "./lib/main.js",
+      "lib/loader.js": "./lib/loader.js"
+    }
+  },
+  "overrides": {
+    "./node_modules/request/node_modules/hawk/node_modules/boom": {
+      "descriptor": {
+        "config": {
+          "pinf/0/bundler/options/0": {
+            "mapParentSiblingPackages": 2
+          }
+        }
+      }
+    },
+    "./node_modules/request/node_modules/hawk/node_modules/sntp": {
+      "descriptor": {
+        "config": {
+          "pinf/0/bundler/options/0": {
+            "mapParentSiblingPackages": 2
+          }
+        }
+      }
+    },
+    "./node_modules/request/node_modules/hawk/node_modules/cryptiles": {
+      "descriptor": {
+        "config": {
+          "pinf/0/bundler/options/0": {
+            "mapParentSiblingPackages": 2
+          }
+        }
+      }
+    },
+    "./node_modules/request/node_modules/form-data": {
+      "descriptor": {
+        "config": {
+          "pinf/0/bundler/options/0": {
+            "mapParentSiblingPackages": 2
+          }
+        }
+      }
+    }
+  }
+}
