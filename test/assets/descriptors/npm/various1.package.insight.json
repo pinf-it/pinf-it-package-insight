@@ -1,0 +1,50 @@
+{
+    "lookupPaths": [
+        "descriptors/npm/various1.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/various1.package.json"
+    ],
+    "raw": {
+        "name": "client",
+        "main": "./client.js",
+        "pm": "sm",
+        "exports": {
+            "bundles": {
+                "client.js": "./client.js"
+            }
+        },
+        "directories": {
+            "bundles": "./.bundles"
+        },
+        "config": {
+            "pinf/0/bundler/options/0": {
+                "mapParentSiblingPackages": 1
+            }
+        }
+    },
+    "normalized": {
+        "name": "client",
+        "pm": {
+            "install": "sm"
+        },
+        "exports": {
+            "bundles": {
+                "client.js": "./client.js"
+            },
+            "main": "./client.js"
+        },
+        "layout": {
+            "directories": {
+                "bundles": "./.bundles"
+            }
+        },
+        "config": {
+            "pinf/0/bundler/options/0": {
+                "mapParentSiblingPackages": 1
+            }
+        }
+    },
+    "warnings": [],
+    "errors": []
+}

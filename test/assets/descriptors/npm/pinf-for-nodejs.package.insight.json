@@ -126,6 +126,11 @@
             }
         },
         "exports": {
+            "bundles": {
+                "lib/pinf.js": "./lib/pinf.js",
+                "lib/main.js": "./lib/main.js",
+                "lib/loader.js": "./lib/loader.js"
+            },
             "bin": {
                 "pinf": "./bin/pinf"
             },
@@ -185,11 +190,6 @@
             }
         }
     },
-    "warnings": [
-        [
-            "normalize",
-            "Property 'exports' was ignored"
-        ]
-    ],
+    "warnings": [],
     "errors": []
 }
