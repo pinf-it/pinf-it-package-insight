@@ -71,8 +71,12 @@
             "url": "http://github.com/caolan/nodeunit.git"
         },
         "devDependencies": {
-            "uglify-js": ">=1.1.0",
-            "should": ">=0.4.2"
+            "uglify-js": {
+                "selector": ">=1.1.0"
+            },
+            "should": {
+                "selector": ">=0.4.2"
+            }
         },
         "bugs": {
             "url": "http://github.com/caolan/nodeunit/issues"
@@ -92,7 +96,9 @@
             "nodeunit": "./bin/nodeunit"
         },
         "dependencies": {
-            "tap": ">=0.2.3"
+            "tap": {
+                "selector": ">=0.2.3"
+            }
         },
         "man": [
             "./man1/nodeunit.1"
@@ -122,11 +128,17 @@
         ],
         "dependencies": {
             "required": {
-                "tap": ">=0.2.3"
+                "tap": {
+                    "selector": ">=0.2.3"
+                }
             },
             "development": {
-                "uglify-js": ">=1.1.0",
-                "should": ">=0.4.2"
+                "uglify-js": {
+                    "selector": ">=1.1.0"
+                },
+                "should": {
+                    "selector": ">=0.4.2"
+                }
             }
         },
         "exports": {

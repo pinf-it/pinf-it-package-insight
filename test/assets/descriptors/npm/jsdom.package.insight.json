@@ -154,15 +154,29 @@
             "http://www.w3.org/TR/REC-DOM-Level-1"
         ],
         "dependencies": {
-            "htmlparser": "1.x",
-            "request": "2.x",
-            "cssom": "0.2.x",
-            "contextify": "0.0.x"
+            "htmlparser": {
+                "selector": "1.x"
+            },
+            "request": {
+                "selector": "2.x"
+            },
+            "cssom": {
+                "selector": "0.2.x"
+            },
+            "contextify": {
+                "selector": "0.0.x"
+            }
         },
         "devDependencies": {
-            "nodeunit": ">=0.5.x",
-            "console.log": "*",
-            "optimist": "*"
+            "nodeunit": {
+                "selector": ">=0.5.x"
+            },
+            "console.log": {
+                "selector": "*"
+            },
+            "optimist": {
+                "selector": "*"
+            }
         },
         "engines": {
             "node": ">=0.1.9"
@@ -198,15 +212,29 @@
         ],
         "dependencies": {
             "required": {
-                "htmlparser": "1.x",
-                "request": "2.x",
-                "cssom": "0.2.x",
-                "contextify": "0.0.x"
+                "htmlparser": {
+                    "selector": "1.x"
+                },
+                "request": {
+                    "selector": "2.x"
+                },
+                "cssom": {
+                    "selector": "0.2.x"
+                },
+                "contextify": {
+                    "selector": "0.0.x"
+                }
             },
             "development": {
-                "nodeunit": ">=0.5.x",
-                "console.log": "*",
-                "optimist": "*"
+                "nodeunit": {
+                    "selector": ">=0.5.x"
+                },
+                "console.log": {
+                    "selector": "*"
+                },
+                "optimist": {
+                    "selector": "*"
+                }
             }
         },
         "requirements": {

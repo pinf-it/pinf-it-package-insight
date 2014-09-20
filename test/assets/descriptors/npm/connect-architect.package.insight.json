@@ -29,13 +29,23 @@
         ],
         "pm": "npm",
         "dependencies": {
-            "architect": "~0.1.4",
-            "connect": "1.8.7",
-            "netutil": "~0.0.1",
-            "mime": ">= 0.0.1"
+            "architect": {
+                "selector": "~0.1.4"
+            },
+            "connect": {
+                "selector": "1.8.7"
+            },
+            "netutil": {
+                "selector": "~0.0.1"
+            },
+            "mime": {
+                "selector": ">= 0.0.1"
+            }
         },
         "devDependencies": {
-            "request": "2.11.1"
+            "request": {
+                "selector": "2.11.1"
+            }
         },
         "scripts": {
             "test": "node test/all.js"
@@ -73,13 +83,23 @@
         ],
         "dependencies": {
             "required": {
-                "architect": "~0.1.4",
-                "connect": "1.8.7",
-                "netutil": "~0.0.1",
-                "mime": ">= 0.0.1"
+                "architect": {
+                    "selector": "~0.1.4"
+                },
+                "connect": {
+                    "selector": "1.8.7"
+                },
+                "netutil": {
+                    "selector": "~0.0.1"
+                },
+                "mime": {
+                    "selector": ">= 0.0.1"
+                }
             },
             "development": {
-                "request": "2.11.1"
+                "request": {
+                    "selector": "2.11.1"
+                }
             }
         },
         "exports": {

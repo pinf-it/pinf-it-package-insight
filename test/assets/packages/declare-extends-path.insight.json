@@ -35,7 +35,9 @@
             },
             "dependencies": {
                 "bundled": {
-                    "super-package": "./node_modules/super-package"
+                    "super-package": {
+                        "location": "./node_modules/super-package"
+                    }
                 }
             },
             "mappings": {
@@ -61,7 +63,9 @@
             },
             "dependencies": {
                 "bundled": {
-                    "super-package": "./node_modules/super-package"
+                    "super-package": {
+                        "location": "./node_modules/super-package"
+                    }
                 }
             },
             "mappings": {
@@ -88,7 +92,9 @@
         },
         "dependencies": {
             "bundled": {
-                "super-package": "./node_modules/super-package"
+                "super-package": {
+                    "location": "./node_modules/super-package"
+                }
             }
         },
         "mappings": {

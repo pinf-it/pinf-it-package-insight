@@ -20,12 +20,24 @@
             "url": "http://github.com/ajaxorg/ace.git"
         },
         "dependencies": {
-            "mime": "1.2.x",
-            "asyncjs": "0.0.x",
-            "jsdom": "0.2.x",
-            "amd-loader": "~0.0.4",
-            "dryice": "",
-            "ace": "."
+            "mime": {
+                "selector": "1.2.x"
+            },
+            "asyncjs": {
+                "selector": "0.0.x"
+            },
+            "jsdom": {
+                "selector": "0.2.x"
+            },
+            "amd-loader": {
+                "selector": "~0.0.4"
+            },
+            "dryice": {
+                "selector": ""
+            },
+            "ace": {
+                "selector": "."
+            }
         },
         "mappings": {
             "ace": "."
@@ -84,12 +96,24 @@
         ],
         "dependencies": {
             "required": {
-                "mime": "1.2.x",
-                "asyncjs": "0.0.x",
-                "jsdom": "0.2.x",
-                "amd-loader": "~0.0.4",
-                "dryice": "",
-                "ace": "."
+                "mime": {
+                    "selector": "1.2.x"
+                },
+                "asyncjs": {
+                    "selector": "0.0.x"
+                },
+                "jsdom": {
+                    "selector": "0.2.x"
+                },
+                "amd-loader": {
+                    "selector": "~0.0.4"
+                },
+                "dryice": {
+                    "selector": ""
+                },
+                "ace": {
+                    "selector": "."
+                }
             }
         },
         "requirements": {

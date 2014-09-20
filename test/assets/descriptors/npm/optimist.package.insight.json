@@ -16,11 +16,17 @@
             "example": "example"
         },
         "dependencies": {
-            "wordwrap": "~0.0.2"
+            "wordwrap": {
+                "selector": "~0.0.2"
+            }
         },
         "devDependencies": {
-            "hashish": "~0.0.4",
-            "tap": "~0.2.4"
+            "hashish": {
+                "selector": "~0.0.4"
+            },
+            "tap": {
+                "selector": "~0.2.4"
+            }
         },
         "scripts": {
             "test": "tap ./test/*.js"
@@ -67,11 +73,17 @@
         ],
         "dependencies": {
             "required": {
-                "wordwrap": "~0.0.2"
+                "wordwrap": {
+                    "selector": "~0.0.2"
+                }
             },
             "development": {
-                "hashish": "~0.0.4",
-                "tap": "~0.2.4"
+                "hashish": {
+                    "selector": "~0.0.4"
+                },
+                "tap": {
+                    "selector": "~0.2.4"
+                }
             }
         },
         "requirements": {

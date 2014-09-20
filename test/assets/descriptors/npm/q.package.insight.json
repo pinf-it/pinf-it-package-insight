@@ -49,10 +49,14 @@
             "teleport": ">=0.2.0"
         },
         "dependencies": {
-            "event-queue": "0.2.0"
+            "event-queue": {
+                "selector": "0.2.0"
+            }
         },
         "devDependencies": {
-            "test": ">=0.3.0"
+            "test": {
+                "selector": ">=0.3.0"
+            }
         },
         "scripts": {
             "test": "node test/all.js"
@@ -60,8 +64,12 @@
         "overlay": {
             "teleport": {
                 "dependencies": {
-                    "event-queue": ">=0.2.0",
-                    "system": ">=0.0.4"
+                    "event-queue": {
+                        "selector": ">=0.2.0"
+                    },
+                    "system": {
+                        "selector": ">=0.0.4"
+                    }
                 }
             }
         },
@@ -94,10 +102,14 @@
         ],
         "dependencies": {
             "required": {
-                "event-queue": "0.2.0"
+                "event-queue": {
+                    "selector": "0.2.0"
+                }
             },
             "development": {
-                "test": ">=0.3.0"
+                "test": {
+                    "selector": ">=0.3.0"
+                }
             }
         },
         "requirements": {
@@ -122,8 +134,12 @@
             "teleport": {
                 "dependencies": {
                     "required": {
-                        "event-queue": ">=0.2.0",
-                        "system": ">=0.0.4"
+                        "event-queue": {
+                            "selector": ">=0.2.0"
+                        },
+                        "system": {
+                            "selector": ">=0.0.4"
+                        }
                     }
                 }
             }

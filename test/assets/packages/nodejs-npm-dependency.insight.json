@@ -1,0 +1,102 @@
+{
+    "dirpath": "packages/nodejs-npm-dependency",
+    "dirrealpath": "packages/nodejs-npm-dependency",
+    "id": "b82660b59818813abea8c7895805c8fe00a5f511-nodejs-npm-dependency",
+    "lookupPaths": [
+        "packages/nodejs-npm-dependency/package.json",
+        "packages/nodejs-npm-dependency/.package.json"
+    ],
+    "descriptorPaths": [
+        "packages/nodejs-npm-dependency/package.json"
+    ],
+    "raw": {
+        "package.json": {
+            "main": "app.js",
+            "dependencies": {
+                "dep": {
+                    "selector": ">= 0.0.0"
+                }
+            }
+        }
+    },
+    "normalized": {
+        ".package.json": {
+            "pm": {
+                "install": "npm"
+            },
+            "layout": {
+                "directories": {
+                    "dependency": "./node_modules"
+                }
+            },
+            "dependencies": {
+                "bundled": {
+                    "dep": {
+                        "location": "./node_modules/dep"
+                    }
+                }
+            },
+            "mappings": {
+                "dep": "7908e95d601eb717af81c8856b5dc54fc9f94dbe-dep"
+            }
+        },
+        "package.json": {
+            "dependencies": {
+                "required": {
+                    "dep": {
+                        "selector": ">= 0.0.0"
+                    }
+                },
+                "bundled": {
+                    "dep": {
+                        "location": "./node_modules/dep"
+                    }
+                }
+            },
+            "exports": {
+                "main": "./app.js"
+            },
+            "pm": {
+                "install": "npm"
+            },
+            "layout": {
+                "directories": {
+                    "dependency": "./node_modules"
+                }
+            },
+            "mappings": {
+                "dep": "7908e95d601eb717af81c8856b5dc54fc9f94dbe-dep"
+            }
+        }
+    },
+    "combined": {
+        "dependencies": {
+            "required": {
+                "dep": {
+                    "selector": ">= 0.0.0"
+                }
+            },
+            "bundled": {
+                "dep": {
+                    "location": "./node_modules/dep"
+                }
+            }
+        },
+        "exports": {
+            "main": "./app.js"
+        },
+        "pm": {
+            "install": "npm"
+        },
+        "layout": {
+            "directories": {
+                "dependency": "./node_modules"
+            }
+        },
+        "mappings": {
+            "dep": "7908e95d601eb717af81c8856b5dc54fc9f94dbe-dep"
+        }
+    },
+    "warnings": [],
+    "errors": []
+}

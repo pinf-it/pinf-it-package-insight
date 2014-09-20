@@ -19,15 +19,33 @@
         },
         "main": "lib/main.js",
         "dependencies": {
-            "inherits": "*",
-            "yamlish": "*",
-            "slide": "*",
-            "runforcover": "~0.0.2",
-            "nopt": "~2",
-            "mkdirp": "~0.3",
-            "difflet": "~0.2.0",
-            "deep-equal": "~0.0.0",
-            "buffer-equal": "~0.0.0"
+            "inherits": {
+                "selector": "*"
+            },
+            "yamlish": {
+                "selector": "*"
+            },
+            "slide": {
+                "selector": "*"
+            },
+            "runforcover": {
+                "selector": "~0.0.2"
+            },
+            "nopt": {
+                "selector": "~2"
+            },
+            "mkdirp": {
+                "selector": "~0.3"
+            },
+            "difflet": {
+                "selector": "~0.2.0"
+            },
+            "deep-equal": {
+                "selector": "~0.0.0"
+            },
+            "buffer-equal": {
+                "selector": "~0.0.0"
+            }
         },
         "keywords": [
             "assert",
@@ -86,15 +104,33 @@
         ],
         "dependencies": {
             "required": {
-                "inherits": "*",
-                "yamlish": "*",
-                "slide": "*",
-                "runforcover": "~0.0.2",
-                "nopt": "~2",
-                "mkdirp": "~0.3",
-                "difflet": "~0.2.0",
-                "deep-equal": "~0.0.0",
-                "buffer-equal": "~0.0.0"
+                "inherits": {
+                    "selector": "*"
+                },
+                "yamlish": {
+                    "selector": "*"
+                },
+                "slide": {
+                    "selector": "*"
+                },
+                "runforcover": {
+                    "selector": "~0.0.2"
+                },
+                "nopt": {
+                    "selector": "~2"
+                },
+                "mkdirp": {
+                    "selector": "~0.3"
+                },
+                "difflet": {
+                    "selector": "~0.2.0"
+                },
+                "deep-equal": {
+                    "selector": "~0.0.0"
+                },
+                "buffer-equal": {
+                    "selector": "~0.0.0"
+                }
             },
             "bundled": {
                 "inherits": false,

@@ -21,15 +21,29 @@
             }
         ],
         "dependencies": {
-            "ws": "0.4.20",
-            "xmlhttprequest": "1.5.0",
-            "debug": "0.6.0"
+            "ws": {
+                "selector": "0.4.20"
+            },
+            "xmlhttprequest": {
+                "selector": "1.5.0"
+            },
+            "debug": {
+                "selector": "0.6.0"
+            }
         },
         "devDependencies": {
-            "mocha": "*",
-            "serve": "*",
-            "expect.js": "*",
-            "browserbuild": "*"
+            "mocha": {
+                "selector": "*"
+            },
+            "serve": {
+                "selector": "*"
+            },
+            "expect.js": {
+                "selector": "*"
+            },
+            "browserbuild": {
+                "selector": "*"
+            }
         },
         "component": {
             "scripts": {
@@ -55,15 +69,29 @@
         },
         "dependencies": {
             "required": {
-                "ws": "0.4.20",
-                "xmlhttprequest": "1.5.0",
-                "debug": "0.6.0"
+                "ws": {
+                    "selector": "0.4.20"
+                },
+                "xmlhttprequest": {
+                    "selector": "1.5.0"
+                },
+                "debug": {
+                    "selector": "0.6.0"
+                }
             },
             "development": {
-                "mocha": "*",
-                "serve": "*",
-                "expect.js": "*",
-                "browserbuild": "*"
+                "mocha": {
+                    "selector": "*"
+                },
+                "serve": {
+                    "selector": "*"
+                },
+                "expect.js": {
+                    "selector": "*"
+                },
+                "browserbuild": {
+                    "selector": "*"
+                }
             }
         },
         "exports": {

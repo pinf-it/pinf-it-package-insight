@@ -16,10 +16,14 @@
             "test": "test"
         },
         "dependencies": {
-            "burrito": ">=0.2.5 <0.3"
+            "burrito": {
+                "selector": ">=0.2.5 <0.3"
+            }
         },
         "devDependencies": {
-            "tap": "~0.2.4"
+            "tap": {
+                "selector": "~0.2.4"
+            }
         },
         "scripts": {
             "test": "tap test/*.js"
@@ -61,10 +65,14 @@
         ],
         "dependencies": {
             "required": {
-                "burrito": ">=0.2.5 <0.3"
+                "burrito": {
+                    "selector": ">=0.2.5 <0.3"
+                }
             },
             "development": {
-                "tap": "~0.2.4"
+                "tap": {
+                    "selector": "~0.2.4"
+                }
             }
         },
         "requirements": {
