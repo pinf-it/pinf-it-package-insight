@@ -1,0 +1,6 @@
+{
+	"@extends": [
+		"./scripts.json"
+	],
+	"dependencies": ["<-", "./dependencies.json"]
+}

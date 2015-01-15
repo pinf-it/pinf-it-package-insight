@@ -1,0 +1,6 @@
+{
+	"required": {
+		"sub": "0.x",
+		"dep": "./dep"
+	}
+}

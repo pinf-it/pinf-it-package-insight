@@ -1,0 +1,73 @@
+{
+    "dirpath": "packages/declare-dependencies-required",
+    "dirrealpath": "packages/declare-dependencies-required",
+    "id": "55a9e9dd238b2d7f5187c0227f6abf758b9627a8-declare-dependencies-required",
+    "lookupPaths": [
+        "packages/declare-dependencies-required/scripts.json",
+        "packages/declare-dependencies-required/package.json",
+        "packages/declare-dependencies-required/.package.json"
+    ],
+    "descriptorPaths": [
+        "packages/declare-dependencies-required/scripts.json",
+        "packages/declare-dependencies-required/package.json"
+    ],
+    "raw": {
+        "package.json": {
+            "scripts": {
+                "script1": "echo 'script1: packages/declare-dependencies-required'",
+                "script2": "echo 'script2: packages/declare-dependencies-required'"
+            },
+            "dependencies": {
+                "required": {
+                    "sub": {
+                        "selector": "0.x"
+                    },
+                    "dep": {
+                        "location": "./dep"
+                    }
+                }
+            }
+        }
+    },
+    "normalized": {
+        ".package.json": {},
+        "package.json": {
+            "dependencies": {
+                "required": {
+                    "sub": {
+                        "selector": "0.x"
+                    },
+                    "dep": {
+                        "location": "./dep"
+                    }
+                }
+            },
+            "exports": {
+                "scripts": {
+                    "script1": "echo 'script1: packages/declare-dependencies-required'",
+                    "script2": "echo 'script2: packages/declare-dependencies-required'"
+                }
+            }
+        }
+    },
+    "combined": {
+        "dependencies": {
+            "required": {
+                "sub": {
+                    "selector": "0.x"
+                },
+                "dep": {
+                    "location": "./dep"
+                }
+            }
+        },
+        "exports": {
+            "scripts": {
+                "script1": "echo 'script1: packages/declare-dependencies-required'",
+                "script2": "echo 'script2: packages/declare-dependencies-required'"
+            }
+        }
+    },
+    "warnings": [],
+    "errors": []
+}
