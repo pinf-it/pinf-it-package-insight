@@ -18,5 +18,10 @@
   },
   "scripts": {
     "test": "make test"
+  },
+  "config": {
+    "pio.deploy.converter": {
+      "name": "nodejs-lib"
+    }
   }
 }
