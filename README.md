@@ -39,7 +39,7 @@ Usage
 Development
 -----------
 
-    make test
+    npm test
 
 
 License

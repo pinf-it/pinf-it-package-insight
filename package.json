@@ -17,7 +17,7 @@
     "glob": "~3.1.21"
   },
   "scripts": {
-    "test": "make test"
+    "test": "./node_modules/.bin/mocha --reporter list test/*.js"
   },
   "config": {
     "pio.deploy.converter": {
