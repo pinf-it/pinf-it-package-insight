@@ -1,0 +1,38 @@
+{
+    "lookupPaths": [
+        "descriptors/npm/bodec.package.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/npm/bodec.package.json"
+    ],
+    "raw": {
+        "name": "bodec",
+        "version": "1.1.0",
+        "main": "bodec.js",
+        "browser": "bodec-browser.js",
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/creationix/bodec.git"
+        },
+        "license": "MIT"
+    },
+    "normalized": {
+        "name": "bodec",
+        "version": "1.1.0",
+        "repositories": [
+            {
+                "type": "git",
+                "url": "https://github.com/creationix/bodec.git"
+            }
+        ],
+        "licenses": [
+            "MIT"
+        ],
+        "exports": {
+            "main": "./bodec.js",
+            "browser": "./bodec-browser.js"
+        }
+    },
+    "warnings": [],
+    "errors": []
+}

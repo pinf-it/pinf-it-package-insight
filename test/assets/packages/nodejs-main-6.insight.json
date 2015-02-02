@@ -11,18 +11,21 @@
     "normalized": {
         ".package.json": {
             "exports": {
-                "main": "./index.js"
+                "main": "./index.js",
+                "browser": "./index.js"
             }
         },
         "package.json": {
             "exports": {
-                "main": "./index.js"
+                "main": "./index.js",
+                "browser": "./index.js"
             }
         }
     },
     "combined": {
         "exports": {
-            "main": "./index.js"
+            "main": "./index.js",
+            "browser": "./index.js"
         }
     },
     "warnings": [],
