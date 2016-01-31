@@ -2,3 +2,4 @@
 /.sm.*
 /node_modules/
 /.pio.cache/
+.npmignore
