@@ -10,6 +10,8 @@ const MODE = "test";
 //const MODE = "write";
 
 
+process.env.PINF_LOOKUP_CEILING = __dirname;
+
 describe('package-insight', function() {
 
 	it('should export `parse()`', function() {
